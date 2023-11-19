@@ -1,0 +1,11 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/.config" value="true" />
+        <entry key="$USER_HOME$/Programmieren/MCI/Tut_Programmiertechnik" value="true" />
+        <entry key="$USER_HOME$/PycharmProjects/Test" value="true" />
+      </map>
+    </option>
+  </component>
+</application>

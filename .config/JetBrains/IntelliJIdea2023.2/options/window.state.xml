@@ -1,0 +1,41 @@
+<application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.left.3760.0.1920.1200" width="1810" height="273" />
+    <size key="GridCell.Tab.0.center.3760.0.1920.1200" width="1810" height="273" />
+    <size key="GridCell.Tab.0.right.3760.0.1920.1200" width="1810" height="273" />
+    <size key="GridCell.Tab.0.bottom.3760.0.1920.1200" width="1810" height="273" />
+    <size key="GridCell.Tab.1.left.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.1.center.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.1.right.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.1.bottom.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.2.left.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.2.center.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.2.right.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.2.bottom.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.3.left.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.3.center.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.3.right.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.3.bottom.3760.0.1920.1200" width="1810" height="330" />
+    <size key="GridCell.Tab.0.left.2560.0.1200.1920" width="1090" height="330" />
+    <size key="GridCell.Tab.0.center.2560.0.1200.1920" width="1090" height="330" />
+    <size key="GridCell.Tab.0.right.2560.0.1200.1920" width="1090" height="330" />
+    <size key="GridCell.Tab.0.bottom.2560.0.1200.1920" width="1090" height="330" />
+    <size key="GridCell.Tab.0.left.0.0.2560.1440" width="1164" height="330" />
+    <size key="GridCell.Tab.0.center.0.0.2560.1440" width="1164" height="330" />
+    <size key="GridCell.Tab.0.right.0.0.2560.1440" width="1164" height="330" />
+    <size key="GridCell.Tab.0.bottom.0.0.2560.1440" width="1164" height="330" />
+  </component>
+  <component name="WindowManager">
+    <frame x="3773" y="59" width="1894" height="1128" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="4503" y="381" width="424" height="454" key="FileChooserDialogImpl" timestamp="1698837506928">
+      <screen x="3760" y="0" width="1920" height="1200" />
+    </state>
+    <state x="4503" y="381" width="424" height="454" key="FileChooserDialogImpl/0.0.2560.1440/2560.0.1200.1920/3760.0.1920.1200" timestamp="1698837506928" />
+    <state x="3842" y="328" width="790" height="570" key="new project wizard" timestamp="1696242930752">
+      <screen x="3760" y="0" width="1920" height="1200" />
+    </state>
+    <state x="3842" y="328" width="790" height="570" key="new project wizard/0.0.2560.1440/2560.0.1200.1920/3760.0.1920.1200" timestamp="1696242930752" />
+  </component>
+</application>

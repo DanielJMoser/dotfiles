@@ -1,0 +1,77 @@
+{
+  "layer": "top",
+  "margin-top": 6,
+  "margin-right": 6,
+  "spacing": 6,
+  "modules-left": [
+    "custom/wlogin", 
+    "hyprland/workspaces"
+  ],
+  "modules-center": ["clock"],
+  "modules-right": [ 
+    "backlight", 
+    "pulseaudio", 
+    "battery",
+    "custom/tcc", 
+    "tray"
+  ],
+  "hyprland/workspaces": {
+    "all-outputs": true,
+    "active-only": false,
+    "on-click": "activate",
+    "format": "{icon}",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "format-icons": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "urgent": "",
+      "active": "",
+      "default": ""
+    }
+  },
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "format-alt": "{:%m/%d/%y}"
+  },
+  "pulseaudio": {
+    "format": "󰕾 {volume}%",
+    "format-muted": ""
+  },
+  "tray": {
+    "spacing": 10,
+    "icon-size": 21
+  },
+  "backlight": {
+    // "device": "acpi_video1",
+    "format": "{icon} {percent} %",
+    "format-icons": ["", "", "", "", "", "", "", "", ""]
+  },
+  "battery": {
+    "format": "<span font='Font Awesome 5 Free 11'>{icon}</span>  {capacity}% - {time}",
+    "format-icons": ["", "", "", "", ""],
+    "format-time": "{H}h{M}m",
+    "format-charging": "<span font='Font Awesome 5 Free'></span>  <span font='Font Awesome 5 Free 11'>{icon}</span>  {capacity}% - {time}",
+    "format-full": "<span font='Font Awesome 5 Free'></span>  <span font='Font Awesome 5 Free 11'>{icon}</span>  Charged",
+    "interval": 30,
+    "states": {
+        "warning": 25,
+        "critical": 10
+    },
+    "tooltip": false,
+    "on-click": "gnome-power-statistics"
+  },
+  "custom/tcc": {
+    "format": "",
+    "on-click": "tuxedo-control-center"
+  },
+  "custom/wlogin": {
+    "format": "󰣇",
+    "on-click": "wlogin"
+  }
+}
+

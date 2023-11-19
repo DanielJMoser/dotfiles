@@ -1,0 +1,122 @@
+
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "JetBrainsMono", "Symbols Nerd Font";
+    font-size: 16px;
+  }
+  
+  window#waybar {
+    background-color: transparent; /* #24273a; */
+    /* border: 3px solid #6e738d; */
+    /* border-radius: 10px; */
+    transition-property: background-color;
+    transition-duration: .5s;
+  }
+  
+  window#waybar.hidden {
+    opacity: 0.2;
+  }
+  
+  #clock,
+  #backlight,
+  #custom-tcc,
+  #pulseaudio,
+  #battery,
+  #tray {
+    padding: 3px 10px;
+    font-weight: bolder;
+    background-color: transparent;
+    border-radius: 8px;
+  }
+
+  #clock {
+    border: 3px solid #585b70;
+    color: #cba6f7;
+  }
+
+  #backlight {
+    border: 3px solid #585b70;
+    color: #fab387;
+  }
+
+  #backlight.value {
+    min-width: 20px;
+  }
+
+  #custom-tcc {
+    border: 3px solid #585b70;
+    color: #a6e3a1;
+  }
+
+  #pulseaudio {
+    border: 3px solid #585b70;
+    color: #eba0ac;
+  }
+
+  #battery {
+    border: 3px solid #585b70;
+    color: #94e2d5;
+  }
+  
+  #workspaces button:nth-child(1) label {
+    color: #74c7ec;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(2) label {
+    color: #eba0ac;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(3) label {
+    color: #a6e3a1;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(4) label {
+    color: #cba6f7;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(5) label {
+    color: #f2cdcd;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(6) label {
+    color: #fab387;
+    margin: 0px 8px;
+  }
+  
+  
+  #window,
+  #workspaces {
+    margin: 0 6px;
+    border: 3px solid #585b70;
+    border-radius: 8px;
+  }
+
+  #custom-wlogin {
+    padding: 3px 10px;
+    color: #8aadf4;
+    background-color: transparent;
+    border: 3px solid #585b70;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+
+  label:focus {
+    background-color: #000000;
+  }
+  
+  #tray > .passive {
+    -gtk-icon-effect: dim;
+  }
+  
+  #tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #ed8796;
+  }
+  
+  
