@@ -178,3 +178,57 @@
 2023-11-14 19:54:39 Success.
 2023-11-14 19:54:39 Latest version is 1.4.16
 2023-11-14 19:54:39 App is up to date.
+2023-11-19 16:33:24 Loading main app package /tmp/.mount_obsidiguylzv/resources/obsidian.asar
+2023-11-19 16:33:24 Checking for update using Github
+2023-11-19 16:33:25 Success.
+2023-11-19 16:33:25 Latest version is 1.4.16
+2023-11-19 16:33:25 App is up to date.
+2023-11-19 17:33:24 Checking for update using Github
+2023-11-19 17:33:24 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2023-11-19 17:33:24 Checking for update using obsidian.md
+2023-11-19 17:33:24 Success.
+2023-11-19 17:33:24 Latest version is 1.4.16
+2023-11-19 17:33:24 App is up to date.
+2023-11-19 18:25:46 Loading main app package /tmp/.mount_obsidixQaAkF/resources/obsidian.asar
+2023-11-19 18:25:47 Checking for update using Github
+2023-11-19 18:25:48 Success.
+2023-11-19 18:25:48 Latest version is 1.4.16
+2023-11-19 18:25:48 App is up to date.
+2023-11-19 18:32:16 Loading main app package /tmp/.mount_obsidi4NV5F3/resources/obsidian.asar
+2023-11-19 18:32:16 Checking for update using Github
+2023-11-19 19:00:08 Loading main app package /tmp/.mount_obsidiIvvfrB/resources/obsidian.asar
+2023-11-19 19:00:09 Checking for update using Github
+2023-11-19 19:00:09 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2023-11-19 19:00:09 Checking for update using obsidian.md
+2023-11-19 19:00:10 Success.
+2023-11-19 19:00:10 Latest version is 1.4.16
+2023-11-19 19:00:10 App is up to date.
+2023-11-20 21:57:23 Loading main app package /tmp/.mount_obsidiwvaiZ1/resources/obsidian.asar
+2023-11-20 21:57:24 Checking for update using Github
+2023-11-20 21:57:24 Success.
+2023-11-20 21:57:24 Latest version is 1.4.16
+2023-11-20 21:57:24 App is up to date.
+2023-11-21 17:49:36 Loading main app package /tmp/.mount_obsidioRv15d/resources/obsidian.asar
+2023-11-21 17:49:37 Checking for update using Github
+2023-11-21 17:49:37 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2023-11-21 17:49:37 Checking for update using obsidian.md
+2023-11-21 17:49:37 Success.
+2023-11-21 17:49:37 Latest version is 1.4.16
+2023-11-21 17:49:37 App is up to date.
+2023-11-27 15:57:41 Loading main app package /tmp/.mount_obsidiwTTAZ1/resources/obsidian.asar
+2023-11-27 15:57:42 Checking for update using Github
+2023-11-27 15:57:42 Success.
+2023-11-27 15:57:42 Latest version is 1.4.16
+2023-11-27 15:57:42 App is up to date.
+2023-12-02 00:01:31 Loading main app package /tmp/.mount_obsidiMngAVj/resources/obsidian.asar
+2023-12-02 00:01:32 Checking for update using Github
+2023-12-02 00:01:32 Failed to check for update using Github (net::ERR_NAME_NOT_RESOLVED)
+2023-12-02 00:01:32 Checking for update using obsidian.md
+2023-12-02 00:01:33 Success.
+2023-12-02 00:01:33 Latest version is 1.4.16
+2023-12-02 00:01:33 App is up to date.
+2023-12-03 15:38:09 Loading main app package /tmp/.mount_obsidiHdbS9W/resources/obsidian.asar
+2023-12-03 15:38:10 Checking for update using Github
+2023-12-03 15:38:10 Success.
+2023-12-03 15:38:10 Latest version is 1.4.16
+2023-12-03 15:38:10 App is up to date.
