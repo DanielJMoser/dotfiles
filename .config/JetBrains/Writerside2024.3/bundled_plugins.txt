@@ -1,0 +1,36 @@
+Git4Idea|Version Controls
+
+com.intellij.dev|null
+
+com.intellij.ja|IDE Localization
+
+com.intellij.ko|IDE Localization
+
+com.intellij.llmInstaller|Other Tools
+
+com.intellij.modules.json|Languages
+
+com.intellij.platform.ide.provisioner|null
+
+com.intellij.platform.images|null
+
+com.intellij.zh|IDE Localization
+
+com.intellij|null
+
+com.jetbrains.station|null
+
+com.jetbrains.writerside.ide|null
+
+com.jetbrains.writerside|null
+
+org.intellij.intelliLang|Other Tools
+
+org.intellij.plugins.markdown|Languages
+
+org.jetbrains.plugins.terminal|Other Tools
+
+org.jetbrains.plugins.yaml|Languages
+
+tanvd.grazi|null
+

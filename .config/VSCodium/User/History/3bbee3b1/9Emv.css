@@ -1,0 +1,323 @@
+/*
+  -------------------------------------------------------------------
+  Combined Waybar CSS
+  Original style.css + Compiled style.scss
+  -------------------------------------------------------------------
+*/
+
+/* --------------------------------------------------------------------------------
+   1. "style.css" Content (Unmodified, placed first)
+   -------------------------------------------------------------------------------- */
+
+   * {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: "JetBrainsMono", "Symbols Nerd Font";
+    font-size: 16px;
+  }
+  
+  window#waybar {
+    background-color: transparent; /* #24273a; */
+    /* border: 3px solid #6e738d; */
+    /* border-radius: 10px; */
+    transition-property: background-color;
+    transition-duration: 0.5s;
+  }
+  
+  window#waybar.hidden {
+    opacity: 0.2;
+  }
+  
+  #clock,
+  #backlight,
+  #custom-tcc,
+  #pulseaudio,
+  #battery,
+  #tray {
+    padding: 3px 10px;
+    font-weight: bolder;
+    background-color: transparent;
+    border-radius: 8px;
+  }
+  
+  #clock {
+    border: 4px solid #585b70;
+    color: #cba6f7;
+  }
+  
+  #backlight {
+    border: 3px solid #585b70;
+    color: #fab387;
+  }
+  
+  #backlight.value {
+    min-width: 20px;
+  }
+  
+  #custom-tcc {
+    border: 3px solid #585b70;
+    color: #a6e3a1;
+  }
+  
+  #pulseaudio {
+    border: 3px solid #585b70;
+    color: #eba0ac;
+  }
+  
+  #battery {
+    border: 3px solid #585b70;
+    color: #94e2d5;
+  }
+  
+  #workspaces button:nth-child(1) label {
+    color: #74c7ec;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(2) label {
+    color: #eba0ac;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(3) label {
+    color: #a6e3a1;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(4) label {
+    color: #cba6f7;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(5) label {
+    color: #f2cdcd;
+    margin: 0px 8px;
+  }
+  
+  #workspaces button:nth-child(6) label {
+    color: #fab387;
+    margin: 0px 8px;
+  }
+  
+  #window,
+  #workspaces {
+    margin: 0 6px;
+    border: 3px solid #585b70;
+    border-radius: 8px;
+  }
+  
+  #custom-wlogin {
+    padding: 3px 10px;
+    color: #8aadf4;
+    background-color: transparent;
+    border: 3px solid #585b70;
+    border-radius: 8px;
+    margin-left: 10px;
+  }
+  
+  label:focus {
+    background-color: #000000;
+  }
+  
+  #tray > .passive {
+    -gtk-icon-effect: dim;
+  }
+  
+  #tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+    background-color: #ed8796;
+  }
+  
+  /* --------------------------------------------------------------------------------
+     2. "style.scss" Content Compiled to CSS (Appended last)
+     -------------------------------------------------------------------------------- */
+  
+  /* 
+     SASS Variables -> Replaced with final color values:
+  
+     $Rosewater: #f4dbd6;   $Flamingo:  #f0c6c6;    $Pink:    #f5bde6;
+     $Mauve:     #c6a0f6;   $Red:       #ed8796;    $Maroon:  #ee99a0;
+     $Peach:     #f5a97f;   $Yellow:    #eed49f;    $Green:   #a6da95;
+     $Teal:      #8bd5ca;   $Sky:       #91d7e3;    $Sapphire:#7dc4e4;
+     $Blue:      #8aadf4;   $Lavender:  #b7bdf8;    $Text:    #cad3f5;
+     $Subtext1:  #b8c0e0;   $Subtext0:  #a5adcb;    $Overlay2:#939ab7;
+     $Overlay1:  #8087a2;   $Overlay0:  #6e738d;    $Surface2:#5b6078;
+     $Surface1:  #494d64;   $Surface0:  #363a4f;    $Base:    #24273a;
+     $Mantle:    #1e2030;   $Crust:     #181926;
+  */
+  
+  * {
+    padding: 0;
+    margin: 0;
+    /* Merged font families to preserve both: */
+    font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font";
+    font-size: 16px;
+  }
+  
+  window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  .modules-left {
+    background-color: #1e2030; /* $Mantle */
+    border-radius: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .modules-center {
+    background-color: #1e2030; /* $Mantle */
+    border-radius: 8px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .modules-right {
+    background-color: #1e2030; /* $Mantle */
+    border-radius: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  #custom-icon {
+    font-size: 20px;
+    color: #00bfff; /* deepskyblue */
+    padding-right: 10px;
+  }
+  
+  #cpu,
+  #memory,
+  #temperature {
+    font-size: 14px;
+    background: #363a4f; /* $Surface0 */
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  #cpu {
+    color: #eed49f; /* $Yellow */
+    padding: 0px 10px 0px 12px;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  #memory {
+    color: #a6da95; /* $Green */
+    padding: 0px 10px 0px 0px;
+  }
+  
+  #temperature {
+    color: #8aadf4; /* $Blue */
+    padding: 0px 12px 0px 0px;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  #custom-window-name {
+    margin-right: 10px;
+    color: #cad3f5; /* $Text */
+  }
+  
+  #custom-pacman-update-icon {
+    background-color: #8bd5ca; /* $Teal */
+    color: #181926;            /* $Crust */
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  #custom-pacman-update {
+    color: #8bd5ca; /* $Teal */
+    margin: 5px 5px 5px 0px;
+  }
+  
+  /* 
+     @each loop for $workspaces-color: 
+     [ #8aadf4 ($Blue), #ed8796 ($Red), #a6da95 ($Green),
+       #c6a0f6 ($Mauve), #f4dbd6 ($Rosewater), #f5a97f ($Peach) ]
+  */
+  #workspaces button:nth-child(1) label {
+    color: #8aadf4;
+    margin: 0px 8px;
+  }
+  #workspaces button:nth-child(2) label {
+    color: #ed8796;
+    margin: 0px 8px;
+  }
+  #workspaces button:nth-child(3) label {
+    color: #a6da95;
+    margin: 0px 8px;
+  }
+  #workspaces button:nth-child(4) label {
+    color: #c6a0f6;
+    margin: 0px 8px;
+  }
+  #workspaces button:nth-child(5) label {
+    color: #f4dbd6;
+    margin: 0px 8px;
+  }
+  #workspaces button:nth-child(6) label {
+    color: #f5a97f;
+    margin: 0px 8px;
+  }
+  
+  #battery {
+    color: #a6da95; /* $Green */
+    margin: 0px 10px 0px 0px;
+  }
+  
+  #pulseaudio,
+  #backlight {
+    font-size: 14px;
+    background: #363a4f; /* $Surface0 */
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  #backlight {
+    color: #eed49f; /* $Yellow */
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px 0px 0px 5px;
+  }
+  
+  #pulseaudio {
+    color: #91d7e3; /* $Sky */
+    padding: 0px 10px 0px 0px;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  #custom-right-arr {
+    color: #8aadf4; /* $Blue */
+  }
+  
+  #network {
+    color: #c6a0f6; /* $Mauve */
+    margin-right: 10px;
+  }
+  
+  #custom-dot {
+    color: #6e738d; /* $Overlay0 */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #custom-dot-alt {
+    color: #a5adcb; /* $Subtext0 */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  #custom-clock-icon {
+    background-color: #cad3f5; /* $Text */
+    color: #181926;            /* $Crust */
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  #clock {
+    padding-left: 10px;
+    color: #cad3f5; /* $Text */
+  }
+  

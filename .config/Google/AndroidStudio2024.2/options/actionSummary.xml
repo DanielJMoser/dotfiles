@@ -1,0 +1,76 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="2" l="1738322351370" />
+    </e>
+    <e n="Android.GenerateSignedApk">
+      <i c="2" l="1738330326325" />
+    </e>
+    <e n="Android.RunAndroidSdkManager">
+      <i c="2" l="1738672075832" />
+    </e>
+    <e n="Debug">
+      <i c="1" l="1738323553733" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="11" l="1738594911271" />
+    </e>
+    <e n="EditorCopy">
+      <i c="6" l="1738672079531" />
+    </e>
+    <e n="FileChooser.ShowHidden">
+      <i c="1" l="1738594918797" />
+    </e>
+    <e n="OpenFile">
+      <i c="3" l="1738330578194" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="4" l="1738594365935" />
+    </e>
+    <e n="Run">
+      <i c="27" l="1738762261962" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="5" l="1738672363318" />
+    </e>
+    <e n="ShowSettings">
+      <i c="3" l="1738672365693" />
+    </e>
+    <e n="Stop">
+      <i c="5" l="1738761747603" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1737370764203" />
+    </e>
+    <e n="com.android.build.output.LongDownloadsNotifier$notifyIfTimeElapsed$1$1">
+      <i c="1" l="1738322263432" />
+    </e>
+    <e n="com.android.tools.idea.streaming.core.StreamingToolWindowManager$NewTabAction">
+      <i c="3" l="1738748948812" />
+    </e>
+    <e n="com.android.tools.idea.streaming.core.StreamingToolWindowManager$StartAvdAction">
+      <i c="3" l="1738748949696" />
+    </e>
+    <e n="com.intellij.execution.ui.RunToolbarPopupKt$createRunConfigurationWithInlines$result$1">
+      <i c="2" l="1738594365127" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1738342789769" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="6" l="1738331255731" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="9" l="1738683605914" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="17" l="1738673355146" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="12" l="1738671718437" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1738594366406" />
+    </e>
+  </component>
+</application>

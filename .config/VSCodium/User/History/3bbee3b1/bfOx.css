@@ -1,0 +1,137 @@
+/* Catppuccin-inspired Style for Waybar */
+
+/* Font Configuration */
+* {
+  font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font";
+  font-size: 16px;
+}
+
+/* Waybar Window */
+window#waybar {
+  background-color: rgba(30, 32, 48, 0.95); /* Mantle */
+  border: 2px solid #585b70; /* Overlay0 */
+  border-radius: 10px;
+  padding: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Modules Styling */
+.modules-left,
+.modules-center,
+.modules-right {
+  background-color: #1e2030; /* Mantle */
+  border-radius: 8px;
+  padding: 0 10px;
+}
+
+/* Workspace Buttons */
+#workspaces button {
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+#workspaces button label {
+  color: #cad3f5; /* Text */
+  font-weight: bold;
+}
+
+#workspaces button.active label {
+  color: #cba6f7; /* Mauve */
+}
+
+#workspaces button.urgent label {
+  color: #f38ba8; /* Red */
+}
+
+/* Clock */
+#clock {
+  color: #a6e3a1; /* Green */
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #6e738d; /* Overlay1 */
+}
+
+/* Backlight */
+#backlight {
+  color: #fab387; /* Peach */
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #6e738d; /* Overlay1 */
+}
+
+/* Pulseaudio */
+#pulseaudio {
+  color: #91d7e3; /* Sky */
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #6e738d; /* Overlay1 */
+}
+
+/* Battery */
+#battery {
+  color: #a6e3a1; /* Green */
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #6e738d; /* Overlay1 */
+}
+
+/* Tray Icons */
+#tray > .passive {
+  opacity: 0.7;
+}
+
+#tray > .needs-attention {
+  background-color: #f38ba8; /* Red */
+  border-radius: 5px;
+}
+
+/* Custom Buttons (TCC, Logout) */
+#custom-wlogin,
+#custom-tcc {
+  color: #8aadf4; /* Blue */
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #6e738d; /* Overlay1 */
+  font-weight: bold;
+}
+
+#custom-wlogin:hover,
+#custom-tcc:hover {
+  background-color: #8aadf4; /* Blue */
+  color: #1e2030; /* Mantle */
+}
+
+/* Hover Effects for Modules */
+#clock:hover,
+#backlight:hover,
+#pulseaudio:hover,
+#battery:hover {
+  background-color: #6e738d; /* Overlay1 */
+  color: #1e2030; /* Mantle */
+}
+
+/* Tooltip Styling */
+.tooltip {
+  background-color: #181926; /* Crust */
+  color: #cad3f5; /* Text */
+  border: 1px solid #6e738d; /* Overlay1 */
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* General Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+* {
+  animation: fadeIn 0.5s ease;
+}

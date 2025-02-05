@@ -1,0 +1,8 @@
+<application>
+  <component name="UpdatesConfigurable">
+    <option name="LAST_BUILD_CHECKED" value="WRS-243.22562.371" />
+    <option name="LAST_TIME_CHECKED" value="1738157081746" />
+    <option name="OBSOLETE_CUSTOM_REPOSITORIES_CLEAN_NEEDED" value="false" />
+    <option name="UPDATE_CHANNEL_TYPE" value="eap" />
+  </component>
+</application>

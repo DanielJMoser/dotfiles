@@ -1,0 +1,25 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/WebstormProjects/mymci2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="mymci2 – MobileDashboard.tsx" opened="true" projectWorkspaceId="2rlXIO9X0OaY8OGsHsmqb61DBkU">
+              <option name="activationTimestamp" value="1738765237879" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="WS-243.23654.120" />
+              <option name="buildTimestamp" value="1737025080000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="21" y="65" width="3798" height="2074" />
+              <option name="productionCode" value="WS" />
+              <option name="projectOpenTimestamp" value="1738748530694" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/WebstormProjects/mymci2" />
+  </component>
+</application>

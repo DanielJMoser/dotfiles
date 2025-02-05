@@ -1,0 +1,90 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/untitled">
+          <value>
+            <RecentProjectMetaInfo frameTitle="untitled – Main.groovy" projectWorkspaceId="2WCiOYf8PQDOcMHOXCkrIneDXyT">
+              <option name="activationTimestamp" value="1696872649107" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-232.9921.47" />
+              <option name="buildTimestamp" value="1694553830833" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="3773" y="59" width="1894" height="1128" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1696242937357" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Programmieren/Freizeit/TalkAboutIt">
+          <value>
+            <RecentProjectMetaInfo frameTitle="TalkAboutIt – ~/Programmieren/Freizeit/TalkAboutIt/App.js" projectWorkspaceId="2Wa6ZSSFCXKDKKf9rp7SgOAymnr">
+              <option name="activationTimestamp" value="1698671236338" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-232.9921.47" />
+              <option name="buildTimestamp" value="1694553808024" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="0" />
+              </option>
+              <frame x="3773" y="59" width="1894" height="1128" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1696872649876" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Programmieren/Freizeit/tradeupcalculator">
+          <value>
+            <RecentProjectMetaInfo frameTitle="tradeupcalculator – SkinCard.js" projectWorkspaceId="2XU6IYGUOteAo8v8NX0MKGeQoox">
+              <option name="activationTimestamp" value="1699798061691" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-232.9921.47" />
+              <option name="buildTimestamp" value="1694553824068" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="1" />
+              </option>
+              <frame x="2573" y="59" width="1174" height="1848" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1698837513007" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Programmieren/MCI/Tut_Programmiertechnik">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="2XOtI4FzauUf39ngpOjVAfykAp2">
+              <option name="activationTimestamp" value="1699804559520" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-232.9921.47" />
+              <option name="buildTimestamp" value="1694553808846" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="3" />
+              </option>
+              <frame x="3773" y="59" width="1894" height="1128" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1699798062206" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/fun2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="fun2 – MyEvalController.java" opened="true" projectWorkspaceId="2rt1g7y1MOKz7uovXLEkx2gPcWa">
+              <option name="activationTimestamp" value="1738765494096" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-243.23654.117" />
+              <option name="buildTimestamp" value="1737003600000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="5" />
+              </option>
+              <frame x="3861" y="65" width="1878" height="1114" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1737564355969" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/IdeaProjects/fun2" />
+    <option name="lastProjectLocation" value="$USER_HOME$/IdeaProjects" />
+  </component>
+</application>

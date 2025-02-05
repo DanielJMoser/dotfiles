@@ -1,3 +1,3 @@
-2023/12/03-16:38:12.546 1952 Reusing MANIFEST /home/danielm/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/03-16:38:12.546 1952 Recovering log #11
-2023/12/03-16:38:12.547 1952 Reusing old log /home/danielm/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000011.log 
+2025/02/04-10:48:06.284 fc1 Reusing MANIFEST /home/danielm/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2025/02/04-10:48:06.284 fc1 Recovering log #4
+2025/02/04-10:48:06.296 fc1 Reusing old log /home/danielm/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000004.log 

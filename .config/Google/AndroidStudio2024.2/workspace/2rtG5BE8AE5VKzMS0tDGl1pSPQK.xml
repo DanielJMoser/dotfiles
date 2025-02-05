@@ -1,0 +1,399 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="android" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="GitBranchesPopupTreeState">
+    <expand>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="RECENT" type="baf65d7a:GitBranchesTreeModel$RecentNode" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="RECENT" type="baf65d7a:GitBranchesTreeModel$RecentNode" />
+        <item name="RECENT/[feature]" type="f52d67ed:GitBranchesTreeModel$BranchesPrefixGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/android}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="android" />
+            <item name="android" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/moduleGroup.svg" iconPlugin="com.intellij" isLeaf="false" text="android" />
+              <item name="android" type="9c53a853:ProjectViewModuleGroupNode" />
+            </presentation>
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="android" />
+              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/android}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text=".gradle" />
+                <item name="dir{file:///home/danielm/WebstormProjects/mymci2/android/.gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/danielm/WebstormProjects/mymci2/android/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/app" />
+                  </map>
+                </attributes>
+                <data iconPath="intui/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="app" />
+                <item name="dir{file:///home/danielm/WebstormProjects/mymci2/android/app}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/capacitor-cordova-android-plugins" />
+                  </map>
+                </attributes>
+                <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-cordova-android-plugins" />
+                <item name="dir{file:///home/danielm/WebstormProjects/mymci2/android/capacitor-cordova-android-plugins}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="gradle" />
+                <item name="dir{file:///home/danielm/WebstormProjects/mymci2/android/gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/gradle.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="build.gradle" />
+                <item name="build.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/capacitor.settings.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/gradle.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="capacitor.settings.gradle" />
+                <item name="capacitor.settings.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
+                <item name="gradle.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/shell.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <item name="gradlew" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/local.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="local.properties" />
+                <item name="local.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/settings.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/gradle.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="settings.gradle" />
+                <item name="settings.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/variables.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/gradle.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="variables.gradle" />
+                <item name="variables.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="true" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="android" />
+            <item name="android" type="1abcf292:AndroidViewProjectNode" />
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="app" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="manifests" />
+                <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="java" />
+                <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/generatedSource.svg" iconPlugin="com.intellij" isLeaf="false" text="java (generated)" />
+                <item name="java (generated)" type="edd41e36:AndroidSourceTypeNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="assets" />
+                <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="res" />
+                <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="true" text="res (generated)" />
+                <item name="res (generated)" type="d4f16f75:AndroidResFolderNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-android" />
+              <item name="capacitor-android" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-app" />
+              <item name="capacitor-app" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-browser" />
+              <item name="capacitor-browser" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-camera" />
+              <item name="capacitor-camera" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-community-privacy-screen" />
+              <item name="capacitor-community-privacy-screen" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-cordova-android-plugins" />
+              <item name="capacitor-cordova-android-plugins" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-device" />
+              <item name="capacitor-device" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-haptics" />
+              <item name="capacitor-haptics" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-keyboard" />
+              <item name="capacitor-keyboard" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-network" />
+              <item name="capacitor-network" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-preferences" />
+              <item name="capacitor-preferences" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-splash-screen" />
+              <item name="capacitor-splash-screen" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capacitor-status-bar" />
+              <item name="capacitor-status-bar" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capgo-capacitor-updater" />
+              <item name="capgo-capacitor-updater" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="intui/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="capgo-native-market" />
+              <item name="capgo-native-market" type="feadf853:AndroidModuleNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="icons/expui/gradle.svg" iconPlugin="com.intellij.gradle" isLeaf="false" text="Gradle Scripts" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enableVisualFormatting" value="false" />
+  </component>
+  <component name="RunConfigurationStartHistory">
+    <history>
+      <element setting="Android App.app" />
+    </history>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="android-history">
+        <shellCommand>
+          <arg value="/usr/bin/bash" />
+          <arg value="-i" />
+        </shellCommand>
+      </TerminalTabState>
+    </option>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10855784" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Resources Explorer" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.258079" />
+      <window_info anchor="bottom" id="Problems" order="2" />
+      <window_info anchor="bottom" id="Problems View" order="3" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="App Quality Insights" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.027378816" />
+      <window_info anchor="bottom" id="Debug" order="8" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.25" />
+      <window_info anchor="right" id="Device Manager" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device Manager 2" order="3" weight="0.34110057" />
+      <window_info active="true" anchor="right" id="Running Devices" order="4" visible="true" weight="0.30612785" />
+      <window_info anchor="right" id="StudioBot" order="5" weight="0.25" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.44105038" />
+      <unified_weights bottom="0.027378816" left="0.10855784" right="0.30612785" />
+    </layoutV2>
+    <recentWindows>
+      <value>Running Devices</value>
+      <value>Project</value>
+      <value>Device Manager 2</value>
+      <value>Build</value>
+      <value>Terminal</value>
+      <value>Assistant</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="6786" y="296" width="894" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1738594370307">
+      <screen x="5760" y="0" width="1920" height="1200" />
+    </state>
+    <state x="6786" y="296" width="894" height="675" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@5760.0.1920.1200" timestamp="1738594370307" />
+    <state x="6975" y="378" width="424" height="458" key="FileChooserDialogImpl" timestamp="1738671747660">
+      <screen x="5760" y="0" width="1920" height="1200" />
+    </state>
+    <state x="6309" y="332" key="FileChooserDialogImpl/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738330589808" />
+    <state x="6975" y="378" width="424" height="458" key="FileChooserDialogImpl/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@5760.0.1920.1200" timestamp="1738671747660" />
+    <state x="6352" y="127" key="SettingsEditor" timestamp="1738672380427">
+      <screen x="5760" y="0" width="1920" height="1200" />
+    </state>
+    <state x="6352" y="127" key="SettingsEditor/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@5760.0.1920.1200" timestamp="1738672380427" />
+  </component>
+</project>

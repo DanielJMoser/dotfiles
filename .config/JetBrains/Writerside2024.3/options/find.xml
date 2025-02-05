@@ -1,0 +1,7 @@
+<application>
+  <component name="FindSettings">
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>*.xml</mask>
+  </component>
+</application>
