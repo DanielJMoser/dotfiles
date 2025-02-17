@@ -736,6 +736,17 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
+                        "id": "workbench.panel.chat",
+                        "label": "&&Chat"
+                    },
+                    {
+                        "id": "workbench.panel.chatEditing",
+                        "label": "Copilot Ed&&its"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
                         "id": "workbench.actions.view.problems",
                         "label": "&&Problems"
                     },
@@ -773,8 +784,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1460,6 +1470,14 @@
                 "label": "Ctrl+Shift+D",
                 "userSettingsLabel": "ctrl+shift+d"
             },
+            "workbench.panel.chat": {
+                "label": "Ctrl+Alt+I",
+                "userSettingsLabel": "ctrl+alt+i"
+            },
+            "workbench.panel.chatEditing": {
+                "label": "Ctrl+Shift+Alt+I",
+                "userSettingsLabel": "ctrl+shift+alt+i"
+            },
             "workbench.actions.view.problems": {
                 "label": "Ctrl+Shift+M",
                 "userSettingsLabel": "ctrl+shift+m"
@@ -1678,6 +1696,7 @@
             "titleBarHeight": 0,
             "activityBarWidth": 48,
             "sideBarWidth": 185,
+            "auxiliarySideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -1689,9 +1708,9 @@
             "uiState": {
                 "mode": 1,
                 "x": 21,
-                "y": 1108,
-                "width": 933,
-                "height": 1031
+                "y": 65,
+                "width": 1893,
+                "height": 2074
             }
         },
         "openedWindows": []

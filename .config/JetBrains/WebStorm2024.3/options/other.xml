@@ -5,49 +5,71 @@
     <option name="ideScale" value="1.25" />
     <option name="presentationModeIdeScale" value="1.75" />
   </component>
-  <component name="PropertyService">{
-  &quot;keyToString&quot;: {
-    &quot;FindSplitterProportion&quot;: &quot;0.32992074&quot;,
-    &quot;GeneralSettings.initiallyConfigured&quot;: &quot;true&quot;,
-    &quot;LAST_CALCULATED_COLOR_INDEX_KEY&quot;: &quot;7&quot;,
-    &quot;MarketplacePluginsSearchHistory&quot;: &quot;catpp\ncat\nca\n/tag:ca\n/tag:Theme&quot;,
-    &quot;RunOnceActivity.VFSInitializationConditionsToFusReporter&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.llm.installer.activate.toolwindow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.llm.show.ai.promotion.window.on.start&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.webstorm.auto-popup.quick-doc.initialized&quot;: &quot;true&quot;,
-    &quot;ai.promo.window.was.actually.shown&quot;: &quot;true&quot;,
-    &quot;ask.about.ctrl.y.shortcut.v2&quot;: &quot;true&quot;,
-    &quot;enter_selection_count&quot;: &quot;5&quot;,
-    &quot;evlsprt3.243&quot;: &quot;7&quot;,
-    &quot;experimental.ui.on.first.startup&quot;: &quot;true&quot;,
-    &quot;experimental.ui.used.version&quot;: &quot;243.23654.120&quot;,
-    &quot;file.gist.reindex.count&quot;: &quot;1&quot;,
-    &quot;fileTypeChangedCounter&quot;: &quot;1&quot;,
-    &quot;fontSizeToResetConsole&quot;: &quot;13.0&quot;,
-    &quot;fontSizeToResetEditor&quot;: &quot;13.0&quot;,
-    &quot;got.it.tooltip.new.terminal.promotion.243&quot;: &quot;1&quot;,
-    &quot;input.method.disabler.muted&quot;: &quot;true&quot;,
-    &quot;llm.installer.last.toolwindow.state&quot;: &quot;LLM_INSTALLER&quot;,
-    &quot;migrated.non.roamable.values.from.general.settings&quot;: &quot;true&quot;,
-    &quot;previousColorScheme&quot;: &quot;_@user_Catppuccin Mocha&quot;,
-    &quot;registry.to.advanced.settings.migration.build&quot;: &quot;WS-243.23654.120&quot;,
-    &quot;ts.lib.d.ts.version&quot;: &quot;5.6.3&quot;
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "BLOCK_TERMINAL_LAST_USED_DATE": "1739548489",
+    "BLOCK_TERMINAL_LAST_USED_VERSION": "243.23654.120",
+    "FindSplitterProportion": "0.32992074",
+    "GeneralSettings.initiallyConfigured": "true",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "8",
+    "MarketplacePluginsSearchHistory": "youtrack\ny\ncatpp\ncat\nca",
+    "MemberChooser.copyJavadoc": "false",
+    "MemberChooser.showClasses": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.llm.installer.activate.toolwindow": "true",
+    "RunOnceActivity.llm.show.ai.promotion.window.on.start": "true",
+    "RunOnceActivity.webstorm.auto-popup.quick-doc.initialized": "true",
+    "SettingsSearchHistory": "system",
+    "Vcs.Log.Text.Filter.History": "ionic",
+    "ai.promo.window.was.actually.shown": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "enter_selection_count": "5",
+    "evlsprt3.243": "7",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "243.23654.120",
+    "file.gist.reindex.count": "1",
+    "fileTypeChangedCounter": "2",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.new.terminal.promotion.243": "1",
+    "got.it.tooltip.settings.sync.in.settings": "1",
+    "input.method.disabler.muted": "true",
+    "llm.installer.last.toolwindow.state": "LLM_INSTALLER",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Catppuccin Mocha",
+    "registry.to.advanced.settings.migration.build": "WS-243.23654.120",
+    "toolwindow.showToolWindowsNames.ts": "2025-02-11T17:30:22.221697947",
+    "toolwindow.showToolWindowsNames.value": "true",
+    "ts.lib.d.ts.version": "5.6.3",
+    "youtrack.uuid": "\"90e5c5c6-d43e-461f-ba85-40cba57fa7b7\"",
+    "youtrack.version": "2024.3"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;fileTypeDetectors&quot;: [
-      &quot;com.intellij.ide.scratch.ScratchFileServiceImpl$Detector&quot;,
-      &quot;com.intellij.docker.dockerFile.DockerFileTypeDetector&quot;,
-      &quot;com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector&quot;,
-      &quot;com.intellij.database.vfs.DbStorageFileType$Detector&quot;,
-      &quot;com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector&quot;,
-      &quot;com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector&quot;,
-      &quot;org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector&quot;
+  "keyToStringList": {
+    "file.chooser.recent.files": [
+      "/home/danielm/WebstormProjects/riot-raccoon"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
     ]
   }
-}</component>
-  <component name="TerminalCommandHistoryManager">
-    <command-history-files>
-      <command-history-file filename="mymci2-history" project-path="/home/danielm/WebstormProjects/mymci2" last-access-time="1738748530267" />
-    </command-history-files>
+}]]></component>
+  <component name="RecentTaskRepositories">
+    <YouTrack shared="false" url="https://mciedu.youtrack.cloud">
+      <commitMessageFormat>{id} {summary}</commitMessageFormat>
+      <option name="defaultSearch" value="Assignee: me sort by: updated #Unresolved" />
+      <option name="loginAnonymously" value="false" />
+      <option name="preferredCloseTaskState" />
+      <option name="preferredOpenTaskState" />
+      <option name="shouldFormatCommitMessage" value="false" />
+      <option name="useHttpAuthentication" value="true" />
+      <option name="useProxy" value="false" />
+      <username>random</username>
+    </YouTrack>
   </component>
 </application>

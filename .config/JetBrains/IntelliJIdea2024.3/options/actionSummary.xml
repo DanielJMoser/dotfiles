@@ -1,16 +1,16 @@
 <application>
   <component name="ActionsLocalSummary">
     <e n="$Copy">
-      <i c="4" l="1699803305478" />
+      <i c="7" l="1739540604026" />
     </e>
     <e n="$Redo">
       <i c="60" l="1698934152013" />
     </e>
     <e n="$SelectAll">
-      <i c="58" l="1737548026777" />
+      <i c="62" l="1739540982412" />
     </e>
     <e n="$Undo">
-      <i c="229" l="1737376768933" />
+      <i c="230" l="1738776133628" />
     </e>
     <e n="ChangeLaf">
       <i c="2" l="1737564361015" />
@@ -28,16 +28,16 @@
       <i c="1" l="1698858681202" />
     </e>
     <e n="Debug">
-      <i c="7" l="1738130435151" />
+      <i c="8" l="1738934433845" />
     </e>
     <e n="EditorBackSpace">
-      <i c="569" l="1738133928234" />
+      <i c="599" l="1739540961181" />
     </e>
     <e n="EditorChooseLookupItem">
       <i c="13" l="1699804555583" />
     </e>
     <e n="EditorCopy">
-      <i c="52" l="1738001541518" />
+      <i c="57" l="1739540982973" />
     </e>
     <e n="EditorCut">
       <i c="9" l="1698933568985" />
@@ -54,6 +54,9 @@
     <e n="EditorEnter">
       <i c="148" l="1737374347899" />
     </e>
+    <e n="EditorEscape">
+      <i c="1" l="1739539323090" />
+    </e>
     <e n="EditorIndentSelection">
       <i c="1" l="1698927911536" />
     </e>
@@ -67,7 +70,7 @@
       <i c="1" l="1698941829210" />
     </e>
     <e n="EditorPaste">
-      <i c="112" l="1737545691174" />
+      <i c="114" l="1739539325265" />
     </e>
     <e n="EditorRight">
       <i c="20" l="1737369320943" />
@@ -91,16 +94,22 @@
       <i c="2" l="1737704294711" />
     </e>
     <e n="Find">
-      <i c="7" l="1737549064033" />
+      <i c="9" l="1739539324553" />
+    </e>
+    <e n="Floating.CodeToolbar.Extract">
+      <i c="3" l="1739539326941" />
     </e>
     <e n="GitCheckoutAction">
       <i c="1" l="1737541478787" />
     </e>
     <e n="GotoClass">
-      <i c="3" l="1737546980289" />
+      <i c="7" l="1739540547255" />
     </e>
     <e n="GotoDeclaration">
       <i c="1" l="1698672366142" />
+    </e>
+    <e n="GotoLine">
+      <i c="1" l="1739539321833" />
     </e>
     <e n="MoreRunToolbarActions">
       <i c="2" l="1737629198733" />
@@ -127,7 +136,7 @@
       <i c="6" l="1698938925331" />
     </e>
     <e n="Run">
-      <i c="83" l="1738748549348" />
+      <i c="91" l="1739513949576" />
     </e>
     <e n="SaveAll">
       <i c="252" l="1737545696396" />
@@ -142,13 +151,13 @@
       <i c="1" l="1737369730171" />
     </e>
     <e n="Stop">
-      <i c="42" l="1738570208099" />
+      <i c="45" l="1738934441724" />
     </e>
     <e n="ToggleLineBreakpoint">
       <i c="2" l="1698868565820" />
     </e>
     <e n="Vcs.UpdateProject">
-      <i c="3" l="1738133055258" />
+      <i c="4" l="1739536049774" />
     </e>
     <e n="Vcs.VcsClone">
       <i c="2" l="1737363400524" />
@@ -172,7 +181,7 @@
       <i c="1" l="1698931242806" />
     </e>
     <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
-      <i c="17" l="1698936091427" />
+      <i c="18" l="1739540423681" />
     </e>
     <e n="com.intellij.ide.actions.QuickChangeLookAndFeel$1">
       <i c="1" l="1737564340453" />
@@ -196,13 +205,13 @@
       <i c="2" l="1698928298914" />
     </e>
     <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
-      <i c="11" l="1737546977216" />
+      <i c="14" l="1739536102749" />
     </e>
     <e n="com.intellij.openapi.project.DumbAwareAction$SimpleDumbAwareAction">
-      <i c="6" l="1738130444540" />
+      <i c="7" l="1739540546624" />
     </e>
     <e n="com.intellij.openapi.ui.DialogWrapper$5">
-      <i c="47" l="1738686242211" />
+      <i c="57" l="1739385693157" />
     </e>
     <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
       <i c="45" l="1738133041693" />
@@ -214,7 +223,7 @@
       <i c="1" l="1737374402672" />
     </e>
     <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
-      <i c="6" l="1737546883788" />
+      <i c="7" l="1739540447403" />
     </e>
     <e n="com.intellij.ui.dsl.builder.components.SegmentedButtonAction">
       <i c="4" l="1698671673546" />

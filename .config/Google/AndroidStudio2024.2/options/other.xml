@@ -1,52 +1,59 @@
 <application>
-  <component name="FileEditorProviderManager">{}</component>
+  <component name="FileEditorProviderManager">{
+  &quot;selectedProviders&quot;: {
+    &quot;text-editor,android-manifest&quot;: &quot;text-editor&quot;
+  }
+}</component>
   <component name="NotRoamableUiSettings">
     <option name="fontSize" value="15.0" />
     <option name="presentationModeIdeScale" value="1.75" />
   </component>
-  <component name="PropertyService"><![CDATA[{
-  "keyToString": {
-    "LAST_CALCULATED_COLOR_INDEX_KEY": "0",
-    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
-    "RunOnceActivity.cidr.test.framework.showIndexingAsTask": "true",
-    "RunOnceActivity.cidr.test.roots.only": "true",
-    "SettingsSearchHistory": "emu\nsdk",
-    "android.sdk.path": "/home/danielm/Android/Sdk",
-    "ask.about.ctrl.y.shortcut.v2": "true",
-    "build.toolwindow.Build Output.selection.state": "com.intellij.build.BuildTreeConsoleView",
-    "build.toolwindow.Sync.selection.state": "com.intellij.build.BuildTreeConsoleView",
-    "decompiler.legal.notice.accepted": "true",
-    "experimental.ui.used.version": "242.23726.103.2422.12816248",
-    "fileTypeChangedCounter": "1",
-    "fontSizeToResetConsole": "13.0",
-    "fontSizeToResetEditor": "13.0",
-    "got.it.tooltip.new.terminal.promotion.242": "1",
-    "ide.memory.adjusted": "true",
-    "input.method.disabler.muted": "true",
-    "installed.kotlin.plugin.version": "242.23726.103.2422.12816248-AS",
-    "last_opened_file_path": "/opt/android-sdk",
-    "migrated.non.roamable.values.from.general.settings": "true",
-    "previousColorScheme": "_@user_Dark",
-    "registry.to.advanced.settings.migration.build": "AI-242.23726.103.2422.12816248"
+  <component name="PropertyService">{
+  &quot;keyToString&quot;: {
+    &quot;LAST_CALCULATED_COLOR_INDEX_KEY&quot;: &quot;0&quot;,
+    &quot;RunOnceActivity.VFSInitializationConditionsToFusReporter&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.test.framework.showIndexingAsTask&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.test.roots.only&quot;: &quot;true&quot;,
+    &quot;SettingsSearchHistory&quot;: &quot;emu\nsdk&quot;,
+    &quot;Source Code Editor With PreviewLayout&quot;: &quot;Editor only&quot;,
+    &quot;android.sdk.path&quot;: &quot;/home/danielm/Android/Sdk&quot;,
+    &quot;ask.about.ctrl.y.shortcut.v2&quot;: &quot;true&quot;,
+    &quot;build.toolwindow.Build Output.selection.state&quot;: &quot;com.intellij.build.BuildTreeConsoleView&quot;,
+    &quot;build.toolwindow.Sync.selection.state&quot;: &quot;com.intellij.build.BuildTreeConsoleView&quot;,
+    &quot;decompiler.legal.notice.accepted&quot;: &quot;true&quot;,
+    &quot;experimental.ui.used.version&quot;: &quot;242.23726.103.2422.12816248&quot;,
+    &quot;fileTypeChangedCounter&quot;: &quot;1&quot;,
+    &quot;fontSizeToResetConsole&quot;: &quot;13.0&quot;,
+    &quot;fontSizeToResetEditor&quot;: &quot;13.0&quot;,
+    &quot;got.it.tooltip.filter.tip&quot;: &quot;1&quot;,
+    &quot;got.it.tooltip.new.terminal.promotion.242&quot;: &quot;1&quot;,
+    &quot;ide.memory.adjusted&quot;: &quot;true&quot;,
+    &quot;input.method.disabler.muted&quot;: &quot;true&quot;,
+    &quot;installed.kotlin.plugin.version&quot;: &quot;242.23726.103.2422.12816248-AS&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/opt/android-sdk&quot;,
+    &quot;migrated.non.roamable.values.from.general.settings&quot;: &quot;true&quot;,
+    &quot;previousColorScheme&quot;: &quot;_@user_Dark&quot;,
+    &quot;registry.to.advanced.settings.migration.build&quot;: &quot;AI-242.23726.103.2422.12816248&quot;
   },
-  "keyToStringList": {
-    "file.chooser.recent.files": [
-      "/opt/android-sdk",
-      "/home/danielm/Downloads/1.2",
-      "/home/danielm/WebstormProjects/mymci2/AuthKey_U2S4Y5F9NF.p8",
-      "/home/danielm/WebstormProjects/mymci2/android"
+  &quot;keyToStringList&quot;: {
+    &quot;file.chooser.recent.files&quot;: [
+      &quot;/home/danielm/WebstormProjects/mymci2&quot;,
+      &quot;/opt/android-sdk&quot;,
+      &quot;/home/danielm/Downloads/1.2&quot;,
+      &quot;/home/danielm/WebstormProjects/mymci2/AuthKey_U2S4Y5F9NF.p8&quot;,
+      &quot;/home/danielm/WebstormProjects/mymci2/android&quot;
     ],
-    "fileTypeDetectors": [
-      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
-      "com.jetbrains.cidr.lang.OCHeaderFileTypeDetector",
-      "com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector",
-      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    &quot;fileTypeDetectors&quot;: [
+      &quot;com.intellij.ide.scratch.ScratchFileServiceImpl$Detector&quot;,
+      &quot;com.jetbrains.cidr.lang.OCHeaderFileTypeDetector&quot;,
+      &quot;com.android.tools.idea.profilers.capture.MemoryCaptureFileType$Detector&quot;,
+      &quot;org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="TerminalCommandHistoryManager">
     <command-history-files>
-      <command-history-file filename="android-history" project-path="$USER_HOME$/WebstormProjects/mymci2/android" last-access-time="1738322398235" />
+      <command-history-file filename="android-history" project-path="$USER_HOME$/WebstormProjects/mymci2/android" last-access-time="1739539834922" />
     </command-history-files>
   </component>
 </application>

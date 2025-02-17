@@ -18,19 +18,35 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/WebstormProjects/mymci2">
+          <value>
+            <RecentProjectMetaInfo frameTitle="mymci2 – BilingualNumberField.tsx" projectWorkspaceId="2rlXIO9X0OaY8OGsHsmqb61DBkU">
+              <option name="activationTimestamp" value="1739180948067" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-242.23726.103.2422.12816248" />
+              <option name="buildTimestamp" value="1734485580000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="6726" y="65" width="933" height="1114" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1739178081178" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/WebstormProjects/mymci2/android">
           <value>
-            <RecentProjectMetaInfo frameTitle="android" opened="true" projectWorkspaceId="2rtG5BE8AE5VKzMS0tDGl1pSPQK">
-              <option name="activationTimestamp" value="1738765238028" />
+            <RecentProjectMetaInfo frameTitle="android – AndroidManifest.xml [android.app.main]" opened="true" projectWorkspaceId="2rtG5BE8AE5VKzMS0tDGl1pSPQK">
+              <option name="activationTimestamp" value="1739544622939" />
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="AI-242.23726.103.2422.12816248" />
               <option name="buildTimestamp" value="1734485580000" />
               <option name="colorInfo">
                 <RecentProjectColorInfo associatedIndex="8" />
               </option>
-              <frame x="1926" y="65" width="1893" height="2074" />
+              <frame x="6726" y="65" width="933" height="1114" />
               <option name="productionCode" value="AI" />
-              <option name="projectOpenTimestamp" value="1738342791831" />
+              <option name="projectOpenTimestamp" value="1739180948310" />
             </RecentProjectMetaInfo>
           </value>
         </entry>

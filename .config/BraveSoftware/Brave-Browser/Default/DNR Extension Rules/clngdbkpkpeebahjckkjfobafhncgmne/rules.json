@@ -1,0 +1,1 @@
+[{"action":{"redirect":{"regexSubstitution":"chrome-extension://clngdbkpkpeebahjckkjfobafhncgmne/install-usercss.html#\\0"},"type":"redirect"},"condition":{"regexFilter":"^.*\\.user\\.(?:css|less|styl)(?:\\?.*)?$","resourceTypes":["main_frame"],"responseHeaders":[{"excludedValues":["text/html*"],"header":"content-type","values":["text/*"]}]},"id":1}]

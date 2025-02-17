@@ -1,0 +1,7 @@
+<application>
+  <component name="UISettings">
+    <option name="SHOW_TOOL_WINDOW_NAMES" value="true" />
+    <option name="TOOL_WINDOW_LEFT_SIDE_CUSTOM_WIDTH" value="74" />
+    <option name="TOOL_WINDOW_RIGHT_SIDE_CUSTOM_WIDTH" value="74" />
+  </component>
+</application>

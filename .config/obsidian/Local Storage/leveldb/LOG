@@ -1,3 +1,4 @@
-2025/02/04-10:48:05.677 fc0 Reusing MANIFEST /home/danielm/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
-2025/02/04-10:48:05.702 fc0 Recovering log #4
-2025/02/04-10:48:05.702 fc0 Reusing old log /home/danielm/.config/obsidian/Local Storage/leveldb/000004.log 
+2025/02/13-11:12:53.815 f6d1 Reusing MANIFEST /home/danielm/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2025/02/13-11:12:53.839 f6d1 Recovering log #4
+2025/02/13-11:12:53.840 f6d1 Reusing old log /home/danielm/.config/obsidian/Local Storage/leveldb/000004.log 
+2025/02/13-11:12:53.840 f6d1 Delete type=0 #3

@@ -44,101 +44,281 @@
   <component name="FileEditorManager">
     <leaf ideFingerprint="3mrbbfebvwksf" SIDE_TABS_SIZE_LIMIT_KEY="-1">
       <file>
-        <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/MobileDashboard.tsx">
+        <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/EvaluationsList.tsx">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="379">
-              <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+            <state relative-caret-position="972">
+              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
               <folding>
-                <element signature="e#0#48#0" expanded="true" />
-                <element signature="e#763#783#0" expanded="true" />
-                <element signature="e#843#916#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"MobileDashboard.tsx","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"EvaluationsList.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
       </file>
       <file>
         <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/Dashboard.tsx">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="666">
-              <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+            <state relative-caret-position="2700">
+              <caret line="108" selection-start-line="108" selection-end-line="108" />
             </state>
           </provider>
         </entry>
         <tab><![CDATA[{"tabTitle":"Dashboard.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
       </file>
-      <file current-in-tab="true">
+      <file>
         <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/DesktopDashboard.tsx">
-          <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="1006">
-              <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
-            </state>
-          </provider>
+          <provider editor-type-id="text-editor" selected="true" />
         </entry>
         <tab><![CDATA[{"tabTitle":"DesktopDashboard.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
       </file>
       <file>
-        <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileDashboard.scss">
+        <entry file="file://$PROJECT_DIR$/src/css/eval/dashboard/EvaluationResultsGrid.scss">
           <provider editor-type-id="text-editor" selected="true">
-            <state relative-caret-position="243">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="540">
+              <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
             </state>
           </provider>
         </entry>
-        <tab><![CDATA[{"tabTitle":"MobileDashboard.scss","foregroundColor":-7752454,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"89b4fa"}}]},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-102,1,10,-105,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,115,97,115,115,46,115,118,103]}]]></tab>
+        <tab><![CDATA[{"tabTitle":"EvaluationResultsGrid.scss","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-102,1,10,-105,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,115,97,115,115,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/MobileEvaluationResultsGrid.tsx">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="676">
+              <caret line="65" column="42" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MobileEvaluationResultsGrid.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/hooks/useEvaluationData.tsx">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="1296">
+              <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"useEvaluationData.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/components/HardwareBackButtonHandler.tsx">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="1242">
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"HardwareBackButtonHandler.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/contexts/EvaluationContext.tsx">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="162">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"EvaluationContext.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/types/EvalTypes.ts">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="81">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"EvalTypes.ts","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-96,1,10,-99,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileEvaluationGrid.scss">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="867">
+              <caret line="113" column="48" selection-end-line="140" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MobileEvaluationGrid.scss","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-102,1,10,-105,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,115,97,115,115,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/MobileDashboard.tsx">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-728">
+              <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MobileDashboard.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileMetricsGrid.scss">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="81">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MobileMetricsGrid.scss","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-102,1,10,-105,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,115,97,115,115,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/MobileMetricsGrid.tsx">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="1394">
+              <caret line="166" selection-start-line="166" selection-end-line="166" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MobileMetricsGrid.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/css/eval/dashboard/Dashboard.scss">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="376">
+              <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Dashboard.scss","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-102,1,10,-105,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,115,97,115,115,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/Swipes.tsx">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="135">
+              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Swipes.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/Swipes.scss">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="216">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Swipes.scss","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-102,1,10,-105,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,115,97,115,115,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/MobileChartSection.tsx">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="918">
+              <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MobileChartSection.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/components/eval/CategoryDetail.tsx">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="702">
+              <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"CategoryDetail.tsx","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-90,1,10,-93,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,116,121,112,101,115,99,114,105,112,116,45,114,101,97,99,116,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileChartSection.scss">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="162">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MobileChartSection.scss","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-102,1,10,-105,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,115,97,115,115,46,115,118,103]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileDashboard.scss">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="2592">
+              <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"MobileDashboard.scss","foregroundColor":-3287308,"textAttributes":{"name":"a"},"icon":[10,45,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,85,114,108,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-102,1,10,-105,1,106,97,114,58,102,105,108,101,58,47,104,111,109,101,47,100,97,110,105,101,108,109,47,46,108,111,99,97,108,47,115,104,97,114,101,47,74,101,116,66,114,97,105,110,115,47,87,101,98,83,116,111,114,109,50,48,50,52,46,51,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,47,108,105,98,47,67,97,116,112,112,117,99,99,105,110,37,50,48,73,99,111,110,115,45,49,46,49,48,46,49,46,106,97,114,33,47,106,101,116,98,114,97,105,110,115,95,105,99,111,110,115,47,105,99,111,110,115,47,109,111,99,104,97,95,115,97,115,115,46,115,118,103]}]]></tab>
       </file>
     </leaf>
   </component>
   <component name="FileTypeUsageLocalSummary"><![CDATA[{
   "data": {
     "JSON": {
-      "usageCount": 29,
-      "lastUsed": 1738748530839
+      "usageCount": 65,
+      "lastUsed": 1739437426145
     },
     "PLAIN_TEXT": {
       "usageCount": 3,
       "lastUsed": 1737369922955
     },
     "JavaScript": {
-      "usageCount": 5,
-      "lastUsed": 1737986944348
+      "usageCount": 8,
+      "lastUsed": 1739369745729
     },
     "AUTO_DETECTED": {
       "usageCount": 1,
       "lastUsed": 1737363447074
     },
     "TypeScript JSX": {
-      "usageCount": 419,
-      "lastUsed": 1738764478177
+      "usageCount": 665,
+      "lastUsed": 1739540807644
     },
     "TypeScript": {
-      "usageCount": 48,
-      "lastUsed": 1738748531000
+      "usageCount": 72,
+      "lastUsed": 1739538517830
     },
     "DIFF": {
-      "usageCount": 15,
-      "lastUsed": 1738569206276
+      "usageCount": 22,
+      "lastUsed": 1739436400135
     },
     "SCSS": {
-      "usageCount": 73,
-      "lastUsed": 1738761223796
+      "usageCount": 106,
+      "lastUsed": 1739535137920
     },
     "CSS": {
-      "usageCount": 9,
-      "lastUsed": 1738758109307
+      "usageCount": 20,
+      "lastUsed": 1739436018292
     },
     "VcsLog": {
       "usageCount": 1,
       "lastUsed": 1737634538004
     },
     "textmate": {
-      "usageCount": 4,
-      "lastUsed": 1738330245516
+      "usageCount": 14,
+      "lastUsed": 1739369895108
     },
     "Markdown": {
       "usageCount": 1,
       "lastUsed": 1738586691122
+    },
+    "Image": {
+      "usageCount": 2,
+      "lastUsed": 1739370495789
+    },
+    "GitIgnore file": {
+      "usageCount": 1,
+      "lastUsed": 1739436319577
     }
   }
 }]]></component>
@@ -173,14 +353,11 @@
       <find>sysa</find>
       <find>play</find>
       <find>isSy</find>
-      <find>playground</find>
       <find>sub</find>
       <find>r</find>
       <find>fetchInitial</find>
       <find>detailedE</find>
       <find>selectedPro</find>
-      <find>render</find>
-      <find>card</find>
       <find>teaching</find>
       <find>prepa</find>
       <find>summa</find>
@@ -202,7 +379,6 @@
       <find>trend-</find>
       <find>historical-evaluations</find>
       <find>Trend</find>
-      <find />
       <find>eva</find>
       <find>tre</find>
       <find>chart</find>
@@ -214,9 +390,7 @@
       <find>dash</find>
       <find>ionchi</find>
       <find>metrics</find>
-      <find>eval</find>
       <find>overall</find>
-      <find>mobile</find>
       <find>useMedia</find>
       <find>filters</find>
       <find>desktopDashboar</find>
@@ -227,7 +401,49 @@
       <find>mobileCha</find>
       <find>succe</find>
       <find>swiper</find>
+      <find>refere</find>
+      <find>mobile</find>
+      <find>referent</find>
+      <find>evalua</find>
+      <find>eval</find>
       <find>swipercon</find>
+      <find>/evaluation</find>
+      <find>evaluations</find>
+      <find>backgrou</find>
+      <find>icon</find>
+      <find>res</find>
+      <find>rating</find>
+      <find>ionalert</find>
+      <find>IonTogg</find>
+      <find>register</find>
+      <find>registerP</find>
+      <find>processQ</find>
+      <find>card-ti</find>
+      <find>loginSu</find>
+      <find>i</find>
+      <find>initLogin</find>
+      <find>loginS</find>
+      <find>IonPag</find>
+      <find>TabHandler</find>
+      <find>Update</find>
+      <find>RouterWrapper</find>
+      <find>updateHan</find>
+      <find>toggleMenu</find>
+      <find>handle</find>
+      <find>evaluation</find>
+      <find>render</find>
+      <find>loading</find>
+      <find>playground</find>
+      <find>ionic</find>
+      <find>push</find>
+      <find>animation</find>
+      <find>metri</find>
+      <find>MobileMe</find>
+      <find />
+      <find>card</find>
+      <find>sorted</find>
+      <find>graphs</find>
+      <find>card-</find>
     </findStrings>
     <replaceStrings>
       <replace>evaluation</replace>
@@ -252,6 +468,11 @@
       </path>
       <path>
         <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
+        <item name="LOCAL" type="6e158aa5:GitBranchType$LOCAL" />
+        <item name="LOCAL/[feature]" type="f52d67ed:GitBranchesTreeModel$BranchesPrefixGroup" />
+      </path>
+      <path>
+        <item name="TreeRoot" type="41d8a9c2:GitBranchesTreeModel$TreeRoot" />
         <item name="REMOTE" type="522ab5b6:GitBranchType$REMOTE" />
       </path>
       <path>
@@ -265,57 +486,57 @@
   <component name="GitSEFilterConfiguration">{}</component>
   <component name="IdeDocumentHistory"><![CDATA[{
   "changedPaths": [
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/DashboardFilters.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/charts/DynamicChart.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/types/EvalTypes.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/FiltersSection.ts",
-    "/home/danielm/WebstormProjects/mymci2/src/types/EvalTypes.ts",
-    "/home/danielm/WebstormProjects/mymci2/src/types/ChartTypes.ts",
-    "/home/danielm/WebstormProjects/mymci2/src/util/EvalUtils.ts",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/LecturerResponse.ts",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/LecturerResponse.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/css/App.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/HistoricalEvaluations.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/FeedbackSection.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/CategoryDetail.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/FeedbackSection.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/LecturerResponse.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/pages/curriculumvitae/entries/CvEntryDetails.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/components/CurriculumVitae/BilingualNumberField.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/PdfDownloader.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/HistoricalEvaluations.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/TrendComparison.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/TrendComparison.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/util/evaluation/versionUtils.ts",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/CategoryDetail.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/Options.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/ChartDetailView.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/i18n/locales/de/translations.json",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/ChartSection.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/FiltersSection.tsx",
-    "/home/danielm/WebstormProjects/mymci2/package.json",
-    "/home/danielm/WebstormProjects/mymci2/src/components/Menu.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/MetricsGrid.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/EvaluationResultsGrid.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/EvaluationResultsGrid.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/Dashboard.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/MobileMetricsGrid.ts",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/mobile/MobileMetricsGrid.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/MobileDashboard.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/App.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileEvaluationResultsGrid.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/MobileEvaluationResultsGrid.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/pages/evaluations/resultsAndFeedback/DesktopDashboard.tsx",
     "/home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard/variables.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/MobileMetricsGrid.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileMetricsGrid.scss",
-    "/home/danielm/WebstormProjects/mymci2/src/pages/evaluations/resultsAndFeedback/Dashboard.tsx",
     "/home/danielm/WebstormProjects/mymci2/src/components/eval/ChartDetailView.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/pages/evaluations/resultsAndFeedback/DesktopDashboard.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/pages/Evaluations.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/pages/evaluations/resultsAndFeedback/MobileDashboardContainer.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/EvaluationList.scss",
+    "/home/danielm/WebstormProjects/mymci2/src/css/components/PushNptificationsSettings.scss",
+    "/home/danielm/WebstormProjects/mymci2/src/hooks/usePushService.ts",
+    "/home/danielm/WebstormProjects/mymci2/firebase-messaging-sw.js",
+    "/home/danielm/WebstormProjects/mymci2/src/css/components/PushNotificationsSettings.scss",
+    "/home/danielm/WebstormProjects/mymci2/src/i18n/locales/en/translations.json",
+    "/home/danielm/WebstormProjects/mymci2/src/i18n/locales/de/translations.json",
+    "/home/danielm/WebstormProjects/mymci2/src/css/pages/settings/PushNotificationsSettings.scss",
+    "/home/danielm/WebstormProjects/mymci2/src/components/DropdownMenu.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/hooks/useVersionCheck.ts",
+    "/home/danielm/WebstormProjects/mymci2/src/services/UpdateService.ts",
+    "/home/danielm/WebstormProjects/mymci2/src/services/UpdateHandler.ts",
+    "/home/danielm/WebstormProjects/mymci2/src/services/UpdateHandler.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/hooks/useVersionCheck.tsx",
+    "/home/danielm/WebstormProjects/mymci2/package.json",
+    "/home/danielm/WebstormProjects/mymci2/src/components/UpdateHandler.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/App.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/components/eval/ErrorBoundary.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/MetricsGrid.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/pages/evaluations/resultsAndFeedback/EvaluationsList.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/pages/Playground.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/pages/settings/Settings.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/components/Menu.tsx",
+    "/home/danielm/WebstormProjects/mymci2/android/app/src/main/AndroidManifest.xml",
+    "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/FirstSlideSection.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/pages/settings/PushNotificationSettings.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/pages/Login.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileMetricsSection.scss",
+    "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/Swipes.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileDashboard.scss",
+    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileMetricsGrid.scss",
+    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/Swipes.scss",
     "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileChartSection.scss",
+    "/home/danielm/WebstormProjects/mymci2/src/components/eval/dashboard/EvaluationResultsGrid.tsx",
     "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/MobileChartSection.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/MobileMetricsGrid.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/MobileEvaluationResultsGrid.ts",
     "/home/danielm/WebstormProjects/mymci2/src/pages/evaluations/resultsAndFeedback/MobileDashboard.tsx",
-    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileDashboard.scss"
+    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileEvaluationGrif.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileEvaluationGrid.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/css/eval/mobile/MobileEvaluationGrid.scss",
+    "/home/danielm/WebstormProjects/mymci2/src/contexts/EvaluationContext.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/pages/evaluations/resultsAndFeedback/Dashboard.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/types/EvalTypes.ts",
+    "/home/danielm/WebstormProjects/mymci2/src/components/eval/mobile/MobileEvaluationResultsGrid.tsx",
+    "/home/danielm/WebstormProjects/mymci2/src/hooks/useEvaluationData.tsx"
   ]
 }]]></component>
   <component name="IgnoredFileRootStore">
@@ -327,31 +548,34 @@
   </component>
   <component name="LanguageUsageStatistics">
     <language id="CSS">
-      <summary usageCount="9" lastUsage="1738758109307" />
+      <summary usageCount="20" lastUsage="1739436018292" />
+    </language>
+    <language id="GitIgnore">
+      <summary usageCount="1" lastUsage="1739436319577" />
     </language>
     <language id="JSON">
-      <summary usageCount="29" lastUsage="1738748530839" />
+      <summary usageCount="65" lastUsage="1739437426145" />
     </language>
     <language id="JavaScript">
-      <summary usageCount="5" lastUsage="1737986944348" />
+      <summary usageCount="8" lastUsage="1739369745729" />
     </language>
     <language id="Markdown">
       <summary usageCount="1" lastUsage="1738586691122" />
     </language>
     <language id="SCSS">
-      <summary usageCount="73" lastUsage="1738761223796" />
+      <summary usageCount="106" lastUsage="1739535137920" />
     </language>
     <language id="TEXT">
       <summary usageCount="3" lastUsage="1737369922955" />
     </language>
     <language id="TypeScript">
-      <summary usageCount="48" lastUsage="1738748531000" />
+      <summary usageCount="72" lastUsage="1739538517830" />
     </language>
     <language id="TypeScript JSX">
-      <summary usageCount="419" lastUsage="1738764478177" />
+      <summary usageCount="665" lastUsage="1739540807644" />
     </language>
     <language id="textmate">
-      <summary usageCount="4" lastUsage="1738330245516" />
+      <summary usageCount="14" lastUsage="1739369895108" />
     </language>
   </component>
   <component name="ProjectView">
@@ -373,22 +597,7 @@
               <item name="mymci2" type="b2602c69:ProjectViewProjectNode" />
               <item name="dir{file:///home/danielm/WebstormProjects/mymci2}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mymci2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css/eval}" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mymci2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css/eval}" type="462c0819:PsiDirectoryNode" />
-              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css/eval/mobile}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/hooks}" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mymci2" type="b2602c69:ProjectViewProjectNode" />
@@ -410,6 +619,12 @@
               <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/pages}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/pages/evaluations}" type="462c0819:PsiDirectoryNode" />
               <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/pages/evaluations/resultsAndFeedback}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mymci2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/danielm/WebstormProjects/mymci2}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/types}" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -531,168 +746,6 @@
                   </attributes>
                   <data isLeaf="false" text="css" />
                   <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css}" type="462c0819:PsiDirectoryNode" />
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/components" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="false" text="components" />
-                    <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css/components}" type="462c0819:PsiDirectoryNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/eval" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="false" text="eval" />
-                    <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css/eval}" type="462c0819:PsiDirectoryNode" />
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/src/css/eval/dashboard" />
-                        </map>
-                      </attributes>
-                      <data isLeaf="false" text="dashboard" />
-                      <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css/eval/dashboard}" type="462c0819:PsiDirectoryNode" />
-                    </presentation>
-                    <presentation>
-                      <attributes>
-                        <map>
-                          <entry key="filePath" value="$PROJECT_DIR$/src/css/eval/mobile" />
-                        </map>
-                      </attributes>
-                      <data isLeaf="false" text="mobile" />
-                      <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/css/eval/mobile}" type="462c0819:PsiDirectoryNode" />
-                      <presentation>
-                        <attributes>
-                          <map>
-                            <entry key="filePath" value="$PROJECT_DIR$/src/css/eval/mobile/MobileDashboard.scss" />
-                          </map>
-                        </attributes>
-                        <data isLeaf="true" text="MobileDashboard.scss" />
-                        <item name="MobileDashboard.scss" type="ab9368bb:PsiFileNode" />
-                      </presentation>
-                    </presentation>
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/App.scss" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="App.scss" />
-                    <item name="App.scss" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/CurriculumVitae.css" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="CurriculumVitae.css" />
-                    <item name="CurriculumVitae.css" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/DateDetails.css" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="DateDetails.css" />
-                    <item name="DateDetails.css" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/Dates.css" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="Dates.css" />
-                    <item name="Dates.css" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/EssenMenuCards.scss" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="EssenMenuCards.scss" />
-                    <item name="EssenMenuCards.scss" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/Forms.scss" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="Forms.scss" />
-                    <item name="Forms.scss" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/Grades.css" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="Grades.css" />
-                    <item name="Grades.css" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/Helper.scss" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="Helper.scss" />
-                    <item name="Helper.scss" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/InternshipApplication.css" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="InternshipApplication.css" />
-                    <item name="InternshipApplication.css" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/LoadingSpinner.css" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="LoadingSpinner.css" />
-                    <item name="LoadingSpinner.css" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/News.css" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="News.css" />
-                    <item name="News.css" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/RedirectButton.css" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="RedirectButton.css" />
-                    <item name="RedirectButton.css" type="ab9368bb:PsiFileNode" />
-                  </presentation>
-                  <presentation>
-                    <attributes>
-                      <map>
-                        <entry key="filePath" value="$PROJECT_DIR$/src/css/StudentCard.css" />
-                      </map>
-                    </attributes>
-                    <data isLeaf="true" text="StudentCard.css" />
-                    <item name="StudentCard.css" type="ab9368bb:PsiFileNode" />
-                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes>
@@ -720,6 +773,51 @@
                   </attributes>
                   <data isLeaf="false" text="hooks" />
                   <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/hooks}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/hooks/useEvaluationData.tsx" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="useEvaluationData.tsx" />
+                    <item name="useEvaluationData.tsx" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/hooks/useIsFirstRender.ts" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="useIsFirstRender.ts" />
+                    <item name="useIsFirstRender.ts" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/hooks/useRecoil.ts" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="useRecoil.ts" />
+                    <item name="useRecoil.ts" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/hooks/useReloading.ts" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="useReloading.ts" />
+                    <item name="useReloading.ts" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/hooks/useTheme.ts" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="useTheme.ts" />
+                    <item name="useTheme.ts" type="ab9368bb:PsiFileNode" />
+                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes>
@@ -825,6 +923,15 @@
                         </attributes>
                         <data isLeaf="true" text="DesktopDashboard.tsx" />
                         <item name="DesktopDashboard.tsx" type="ab9368bb:PsiFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/EvaluationsList.tsx" />
+                          </map>
+                        </attributes>
+                        <data isLeaf="true" text="EvaluationsList.tsx" />
+                        <item name="EvaluationsList.tsx" type="ab9368bb:PsiFileNode" />
                       </presentation>
                       <presentation>
                         <attributes>
@@ -1062,6 +1169,24 @@
                   </attributes>
                   <data isLeaf="false" text="types" />
                   <item name="dir{file:///home/danielm/WebstormProjects/mymci2/src/types}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/types/ChartTypes.ts" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="ChartTypes.ts" />
+                    <item name="ChartTypes.ts" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/src/types/EvalTypes.ts" />
+                      </map>
+                    </attributes>
+                    <data isLeaf="true" text="EvalTypes.ts" />
+                    <item name="EvalTypes.ts" type="ab9368bb:PsiFileNode" />
+                  </presentation>
                 </presentation>
                 <presentation>
                   <attributes>
@@ -1252,7 +1377,7 @@
             </presentation>
             <presentation>
               <attributes />
-              <data iconPath="scope/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
               <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
             </presentation>
           </presentation>
@@ -1262,11 +1387,13 @@
     </panes>
   </component>
   <component name="RunConfigurationStartHistory">
+    <option name="allConfigurationsExpanded" value="true" />
     <history>
       <element setting="npm.run-android-dev" />
       <element setting="npm.serve-dev" />
       <element setting="npm.build-android-dev" />
       <element setting="npm.build-android-prod" />
+      <element setting="npm.run-android-prod" />
       <element setting="npm.serve-prod" />
     </history>
   </component>
@@ -1284,427 +1411,609 @@
   </component>
   <component name="TerminalArrangementManager">
     <option name="myTabStates">
-      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" commandHistoryFileName="mymci2-history">
+      <TerminalTabState tabName="Local">
         <shellCommand>
           <arg value="/usr/bin/bash" />
           <arg value="-i" />
         </shellCommand>
       </TerminalTabState>
-      <TerminalTabState tabName="Local (2)" currentWorkingDirectory="$PROJECT_DIR$" />
     </option>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189782000" />
+    <option name="totallyTimeSpent" value="297514000" />
   </component>
   <component name="ToolWindowManager">
     <layoutV2>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19307977" />
-      <window_info id="Commit" order="1" weight="0.09623486" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" weight="0.33003858" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.33782357" />
+      <window_info active="true" id="Commit" order="1" visible="true" weight="0.22656661" />
+      <window_info id="VcsChanges" order="2" weight="0.17759347" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.27603665" />
       <window_info anchor="bottom" id="Problems" order="1" />
-      <window_info anchor="bottom" id="Problems View" order="2" weight="0.32666343" />
-      <window_info anchor="bottom" id="Terminal" order="3" weight="0.35945034" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.35945034" />
+      <window_info anchor="bottom" id="Problems View" order="2" weight="0.16465767" />
+      <window_info anchor="bottom" x="190" y="1327" width="3650" height="620" id="Terminal" order="3" weight="0.29918033" />
+      <window_info anchor="bottom" id="Run" order="4" show_stripe_button="false" weight="0.16465767" />
       <window_info anchor="bottom" id="Services" order="5" weight="0.33003858" />
       <window_info anchor="bottom" id="Find" order="6" show_stripe_button="false" weight="0.33003858" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.05906461" />
+      <window_info anchor="bottom" id="Debug" order="7" show_stripe_button="false" weight="0.061957568" />
       <window_info anchor="right" id="Notifications" order="0" weight="0.33004212" />
       <window_info anchor="right" id="AIAssistant" order="1" weight="0.33004212" />
       <window_info anchor="right" id="Database" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
       <window_info anchor="right" id="Maven" order="4" weight="0.25" />
-      <unified_weights bottom="0.35945034" left="0.19307977" right="0.33004212" />
+      <window_info active="true" anchor="right" id="YouTrack" order="5" side_tool="true" visible="true" weight="0.42181724" />
+      <unified_weights bottom="0.16465767" left="0.22656661" right="0.42181724" />
     </layoutV2>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16837808" />
+      <window_info id="Commit" order="1" weight="0.16837808" />
+      <window_info id="VcsChanges" order="2" weight="0.17759347" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.27603665" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info active="true" anchor="bottom" id="Problems View" order="2" visible="true" weight="0.27603665" />
+      <window_info anchor="bottom" x="190" y="1327" width="3650" height="620" id="Terminal" order="3" weight="0.29918033" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.27603665" />
+      <window_info anchor="bottom" id="Services" order="5" weight="0.33003858" />
+      <window_info anchor="bottom" id="Find" order="6" show_stripe_button="false" weight="0.33003858" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.30593055" />
+      <window_info anchor="right" id="Notifications" order="0" weight="0.33004212" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.33004212" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.27603665" left="0.16837808" right="0.33004212" />
+    </layout-to-restore>
     <recentWindows>
+      <value>Commit</value>
+      <value>YouTrack</value>
       <value>Run</value>
-      <value>Terminal</value>
+      <value>Problems View</value>
       <value>Project</value>
       <value>Debug</value>
-      <value>Commit</value>
-      <value>Problems View</value>
       <value>Version Control</value>
-      <value>Services</value>
+      <value>Terminal</value>
+      <value>VcsChanges</value>
       <value>Find</value>
+      <value>Services</value>
       <value>Notifications</value>
       <value>AIAssistant</value>
     </recentWindows>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1592" y="809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.ideScale=125" timestamp="1737637342906">
+    <state x="1686" y="765" key="#com.intellij.ide.util.MemberChooser.ideScale=125" timestamp="1739184488609">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1592" y="809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1737637342906" />
-    <state x="371" y="237" key="DiffContextDialog.ideScale=125" timestamp="1737627452053">
+    <state x="1686" y="765" key="#com.intellij.ide.util.MemberChooser.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739184488609" />
+    <state x="1592" y="809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.ideScale=125" timestamp="1738774315769">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="371" y="237" key="DiffContextDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1737627452053" />
+    <state x="1592" y="809" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738774315769" />
+    <state x="371" y="237" key="DiffContextDialog.ideScale=125" timestamp="1739272928346">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="371" y="237" key="DiffContextDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739272928346" />
     <state x="1550" y="790" width="739" height="625" key="EditFileWatcherDialog.ideScale=125" timestamp="1738599261837">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1550" y="790" width="739" height="625" key="EditFileWatcherDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738599261837" />
+    <state x="1655" y="818" key="FileChooserDialogImpl.ideScale=125" timestamp="1739466512782">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1655" y="818" key="FileChooserDialogImpl.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739466512782" />
     <state width="3716" height="641" key="GridCell.Tab.0.bottom" timestamp="1737370530578">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1791" height="693" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1738764084197">
+    <state width="3650" height="76" key="GridCell.Tab.0.bottom.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1791" height="693" key="GridCell.Tab.0.bottom.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738764084197" />
+    <state width="3650" height="76" key="GridCell.Tab.0.bottom.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="785" height="237" key="GridCell.Tab.0.bottom.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@5760.0.1920.1200" timestamp="1739360824790" />
     <state width="3716" height="641" key="GridCell.Tab.0.bottom/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1737370530578" />
     <state width="3716" height="641" key="GridCell.Tab.0.center" timestamp="1737370530578">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1791" height="693" key="GridCell.Tab.0.center.ideScale=125" timestamp="1738764084197">
+    <state width="3650" height="76" key="GridCell.Tab.0.center.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1791" height="693" key="GridCell.Tab.0.center.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738764084197" />
+    <state width="3650" height="76" key="GridCell.Tab.0.center.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="785" height="237" key="GridCell.Tab.0.center.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@5760.0.1920.1200" timestamp="1739360824790" />
     <state width="3716" height="641" key="GridCell.Tab.0.center/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1737370530578" />
     <state width="3716" height="641" key="GridCell.Tab.0.left" timestamp="1737370530578">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1791" height="693" key="GridCell.Tab.0.left.ideScale=125" timestamp="1738764084197">
+    <state width="3650" height="76" key="GridCell.Tab.0.left.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1791" height="693" key="GridCell.Tab.0.left.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738764084197" />
+    <state width="3650" height="76" key="GridCell.Tab.0.left.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="785" height="237" key="GridCell.Tab.0.left.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@5760.0.1920.1200" timestamp="1739360824790" />
     <state width="3716" height="641" key="GridCell.Tab.0.left/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1737370530578" />
     <state width="3716" height="641" key="GridCell.Tab.0.right" timestamp="1737370530578">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1791" height="693" key="GridCell.Tab.0.right.ideScale=125" timestamp="1738764084197">
+    <state width="3650" height="76" key="GridCell.Tab.0.right.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="1791" height="693" key="GridCell.Tab.0.right.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738764084197" />
+    <state width="3650" height="76" key="GridCell.Tab.0.right.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="785" height="237" key="GridCell.Tab.0.right.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@5760.0.1920.1200" timestamp="1739360824790" />
     <state width="3716" height="641" key="GridCell.Tab.0.right/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1737370530578" />
-    <state width="3696" height="70" key="GridCell.Tab.1.bottom.ideScale=125" timestamp="1738759014172">
+    <state width="3650" height="76" key="GridCell.Tab.1.bottom.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.1.bottom.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014172" />
-    <state width="3696" height="70" key="GridCell.Tab.1.center.ideScale=125" timestamp="1738759014172">
+    <state width="3650" height="76" key="GridCell.Tab.1.bottom.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.1.center.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.1.center.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014172" />
-    <state width="3696" height="70" key="GridCell.Tab.1.left.ideScale=125" timestamp="1738759014172">
+    <state width="3650" height="76" key="GridCell.Tab.1.center.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.1.left.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.1.left.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014172" />
-    <state width="3696" height="70" key="GridCell.Tab.1.right.ideScale=125" timestamp="1738759014172">
+    <state width="3650" height="76" key="GridCell.Tab.1.left.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.1.right.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.1.right.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014172" />
-    <state width="3696" height="70" key="GridCell.Tab.2.bottom.ideScale=125" timestamp="1738759014172">
+    <state width="3650" height="76" key="GridCell.Tab.1.right.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.2.bottom.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.2.bottom.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014172" />
-    <state width="3696" height="70" key="GridCell.Tab.2.center.ideScale=125" timestamp="1738759014172">
+    <state width="3650" height="76" key="GridCell.Tab.2.bottom.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.2.center.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.2.center.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014172" />
-    <state width="3696" height="70" key="GridCell.Tab.2.left.ideScale=125" timestamp="1738759014172">
+    <state width="3650" height="76" key="GridCell.Tab.2.center.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.2.left.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.2.left.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014172" />
-    <state width="3696" height="70" key="GridCell.Tab.2.right.ideScale=125" timestamp="1738759014172">
+    <state width="3650" height="76" key="GridCell.Tab.2.left.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.2.right.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.2.right.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014172" />
-    <state width="3696" height="70" key="GridCell.Tab.3.bottom.ideScale=125" timestamp="1738759014173">
+    <state width="3650" height="76" key="GridCell.Tab.2.right.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.3.bottom.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.3.bottom.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014173" />
-    <state width="3696" height="70" key="GridCell.Tab.3.center.ideScale=125" timestamp="1738759014173">
+    <state width="3650" height="76" key="GridCell.Tab.3.bottom.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.3.center.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.3.center.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014173" />
-    <state width="3696" height="70" key="GridCell.Tab.3.left.ideScale=125" timestamp="1738759014172">
+    <state width="3650" height="76" key="GridCell.Tab.3.center.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.3.left.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.3.left.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014172" />
-    <state width="3696" height="70" key="GridCell.Tab.3.right.ideScale=125" timestamp="1738759014173">
+    <state width="3650" height="76" key="GridCell.Tab.3.left.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state width="3650" height="76" key="GridCell.Tab.3.right.ideScale=125" timestamp="1739546653530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state width="3696" height="70" key="GridCell.Tab.3.right.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759014173" />
-    <state x="384" y="239" key="MergeDialog.ideScale=125" timestamp="1738339314590">
+    <state width="3650" height="76" key="GridCell.Tab.3.right.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546653530" />
+    <state x="384" y="239" key="MergeDialog.ideScale=125" timestamp="1739459101799">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="384" y="239" key="MergeDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738339314590" />
-    <state x="1443" y="821" width="953" height="564" key="MultipleFileMergeDialog.ideScale=125" timestamp="1738314002271">
+    <state x="384" y="239" key="MergeDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739459101799" />
+    <state x="1443" y="821" width="953" height="564" key="MultipleFileMergeDialog.ideScale=125" timestamp="1739459101800">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1443" y="821" width="953" height="564" key="MultipleFileMergeDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738314002271" />
-    <state x="1683" y="779" width="474" height="648" key="RollbackChangesDialog.ideScale=125" timestamp="1738159955716">
+    <state x="1443" y="821" width="953" height="564" key="MultipleFileMergeDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739459101800" />
+    <state x="2844" y="1915" width="949" height="173" key="ProcessPopupWindow.ideScale=125" timestamp="1739181896307">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1683" y="779" width="474" height="648" key="RollbackChangesDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738159955716" />
-    <state x="1424" y="738" key="SettingsEditor.ideScale=125" timestamp="1737374684707">
+    <state x="2844" y="1915" width="949" height="173" key="ProcessPopupWindow.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739181896307" />
+    <state x="1683" y="779" width="474" height="648" key="RollbackChangesDialog.ideScale=125" timestamp="1739440681696">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1424" y="738" key="SettingsEditor.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1737374684707" />
-    <state x="1420" y="774" width="1000" height="657" key="Vcs.Push.Dialog.v2.ideScale=125" timestamp="1738598817036">
+    <state x="1683" y="779" width="474" height="648" key="RollbackChangesDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739440681696" />
+    <state x="1424" y="738" key="SettingsEditor.ideScale=125" timestamp="1739546110767">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1420" y="774" width="1000" height="657" key="Vcs.Push.Dialog.v2.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738598817036" />
+    <state x="1424" y="738" key="SettingsEditor.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546110767" />
+    <state x="1420" y="774" width="1000" height="657" key="Vcs.Push.Dialog.v2.ideScale=125" timestamp="1739546614163">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1420" y="774" width="1000" height="657" key="Vcs.Push.Dialog.v2.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739546614163" />
     <state x="1592" y="755" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.ideScale=125" timestamp="1737637610530">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1592" y="755" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1737637610530" />
-    <state x="1662" y="1006" width="505" height="163" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125" timestamp="1738759007368">
+    <state x="1662" y="1006" width="505" height="163" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125" timestamp="1739536564789">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1662" y="1006" width="505" height="163" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738759007368" />
-    <state x="1615" y="768" width="609" height="665" key="git4idea.branch.GitSmartOperationDialog.ideScale=125" timestamp="1738339281631">
+    <state x="1662" y="1006" width="505" height="163" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739536564789" />
+    <state x="1615" y="768" width="557" height="370" key="git4idea.branch.GitSmartOperationDialog.ideScale=125" timestamp="1739369953311">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1615" y="768" width="609" height="665" key="git4idea.branch.GitSmartOperationDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738339281631" />
+    <state x="1615" y="768" width="609" height="665" key="git4idea.branch.GitSmartOperationDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739369953311" />
+    <state x="6568" y="427" width="557" height="370" key="git4idea.branch.GitSmartOperationDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@5760.0.1920.1200" timestamp="1738930853026" />
     <state x="121" y="165" width="3598" height="1874" key="lvcs.dialog.size.ideScale=125" timestamp="1738000326141">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="121" y="165" width="3598" height="1874" key="lvcs.dialog.size.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738000326141" />
-    <state x="1499" y="532" width="840" height="1059" key="search.everywhere.popup.ideScale=125" timestamp="1738758109289">
+    <state x="1499" y="532" width="838" height="197" key="search.everywhere.popup.ideScale=125" timestamp="1739537675448">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
-    <state x="1499" y="532" width="840" height="1059" key="search.everywhere.popup.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1738758109289" />
+    <state x="1499" y="532" width="838" height="197" key="search.everywhere.popup.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1739537675448" />
     <state x="1634" y="898" key="vcs.readOnlyHandler.ReadOnlyStatusDialog.ideScale=125" timestamp="1737636480317">
       <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1634" y="898" key="vcs.readOnlyHandler.ReadOnlyStatusDialog.ideScale=125/0.0.3840.2160/3840.0.1920.1200/5760.0.1920.1200@0.0.3840.2160" timestamp="1737636480317" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/CurriculumVitae/BilingualTextField.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/CurriculumVitae/BilingualNumberField.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/pages/curriculumvitae/entries/CvEntryDetails.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/pages/onboarding/OnboardingLockedPage.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/onboarding/BaseOnboardingPage.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/DataCheckOverview.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/hooks/useFormSubmissionHandler.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/pages/onboarding/LecturerOnboarding.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/contexts/OnboardingContext.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/services/ReferentenService.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/util/AxiosHelper.tsx">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Settings.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/pages/profile/Profile.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="102" column="32" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/profile/AccountOverview.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/eval/ErrorBoundary.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/contexts/FoodContext.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/loggingService.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/EvaluationList.scss" />
+    <entry file="file://$PROJECT_DIR$/src/i18n/locales/de/translations.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9585">
+          <caret line="355" column="47" selection-start-line="355" selection-start-column="47" selection-end-line="355" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileMetricsGrid.scss" />
+    <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/FirstSlideSection.tsx" />
+    <entry file="file://$PROJECT_DIR$/src/pages/onboarding/LecturerOnboarding.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/ReferentenService.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/components/UpdateHandler.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        <state relative-caret-position="675">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="62" selection-end-line="25" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/components/onboarding/BaseOnboardingPage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hooks/usePushService.ts" />
-    <entry file="file://$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/pages/onboarding/OnboardingLockedPage.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/Playground.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2447">
-          <caret line="234" column="37" selection-start-line="234" selection-start-column="37" selection-end-line="234" selection-end-column="37" />
+        <state relative-caret-position="162">
+          <caret line="29" column="65" selection-end-line="272" selection-end-column="26" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/i18n/locales/de/translations.json">
+    <entry file="file://$PROJECT_DIR$/src/util/AxiosHelper.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29079">
-          <caret line="1077" column="51" selection-start-line="1077" selection-start-column="51" selection-end-line="1077" selection-end-column="51" />
+        <state relative-caret-position="108">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/eval/dashboard/EvaluationResultsGrid.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/DataCheckOverview.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4563">
-          <caret line="169" selection-start-line="169" selection-end-line="169" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ionic.config.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation.md" />
-    <entry file="file://$PROJECT_DIR$/capacitor.config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/MobileEvaluationResultsGrid.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/css/eval/dashboard/variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="115" column="51" lean-forward="true" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/MobileChartSection.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/MobileMetricsGrid.tsx" />
-    <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileChartSection.scss" />
-    <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileMetricsGrid.scss" />
-    <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileEvaluationResultsGrid.scss" />
-    <entry file="file://$PROJECT_DIR$/src/components/eval/dashboard/ChartSection.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4698">
-          <caret line="189" column="46" selection-start-line="189" selection-start-column="46" selection-end-line="189" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/eval/dashboard/FiltersSection.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        <state relative-caret-position="621">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/evaluation/EvalUtils.ts">
+    <entry file="file://$PROJECT_DIR$/src/hooks/useFormSubmissionHandler.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5481">
-          <caret line="205" column="21" selection-start-line="205" selection-start-column="21" selection-end-line="205" selection-end-column="21" />
+        <state relative-caret-position="4266">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/types/EvalTypes.ts">
+    <entry file="file://$PROJECT_DIR$/src/contexts/OnboardingContext.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="13284">
+          <caret line="520" selection-start-line="520" selection-end-line="520" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/contexts/EvaluationContext.tsx">
+    <entry file="file://$PROJECT_DIR$/src/components/Menu.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/eval/ChartDetailView.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
+        <state relative-caret-position="10017">
+          <caret line="371" column="26" selection-start-line="371" selection-start-column="26" selection-end-line="371" selection-end-column="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/eval/dashboard/MetricsGrid.tsx">
+    <entry file="file://$PROJECT_DIR$/src/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2322">
-          <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+        <state relative-caret-position="3240">
+          <caret line="120" column="23" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
+          <folding>
+            <element signature="e#427#467#0" expanded="true" />
+            <element signature="e#628#666#0" expanded="true" />
+            <element signature="e#914#945#0" expanded="true" />
+            <element signature="e#990#1047#0" expanded="true" />
+            <element signature="e#1119#1156#0" expanded="true" />
+            <element signature="e#4562#4638#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/eval/dashboard/EvaluationResultsGrid.tsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/settings/PushNotificationSettings.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2403">
-          <caret line="111" column="10" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
+        <state relative-caret-position="756">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#72#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/hooks/useTheme.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="621">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/eval/dashboard/ChartDetailView.scss">
+    <entry file="file://$PROJECT_DIR$/src/pages/settings/Settings.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/eval/dashboard/Dashboard.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/evaluation/versionUtils.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/eval/dashboard/CategoryDetail.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/app/src/main/assets/public/static/css/main.11c29c78.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret column="4151" selection-start-column="4151" selection-end-column="4160" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/theme/variables.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        <state relative-caret-position="972">
+          <caret line="36" column="76" selection-start-line="36" selection-start-column="76" selection-end-line="36" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#237#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/PlatformUtils.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.tsx">
+    <entry file="file://$PROJECT_DIR$/src/pages/Login.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1135">
-          <caret line="187" column="99" selection-start-line="187" selection-start-column="99" selection-end-line="187" selection-end-column="99" />
+        <state relative-caret-position="859">
+          <caret line="93" column="9" lean-forward="true" selection-start-line="93" selection-start-column="9" selection-end-line="93" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Menu.tsx">
+    <entry file="file://$PROJECT_DIR$/src/css/eval/dashboard/Dashboard.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2457">
-          <caret line="137" column="9" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+        <state relative-caret-position="376">
+          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/eval/dashboard/MetricsGrid.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/eval/dashboard/ChartSection.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileDashboard.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        <state relative-caret-position="2592">
+          <caret line="96" column="26" selection-start-line="96" selection-start-column="26" selection-end-line="96" selection-end-column="26" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileChartSection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/eval/CategoryDetail.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="64" column="53" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/eval/dashboard/EvaluationResultsGrid.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="881">
+          <caret line="114" column="43" selection-start-line="114" selection-start-column="43" selection-end-line="114" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/eval/dashboard/EvaluationResultsGrid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/MobileChartSection.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="46" column="55" selection-start-line="46" selection-start-column="55" selection-end-line="46" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/Swipes.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/Swipes.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/MobileMetricsGrid.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileMetricsGrid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/eval/mobile/MobileEvaluationGrid.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="113" column="48" selection-end-line="140" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HardwareBackButtonHandler.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="46" column="46" lean-forward="true" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/contexts/EvaluationContext.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/DesktopDashboard.tsx">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/MobileDashboard.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="59" column="14" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+        <state relative-caret-position="-728">
+          <caret line="106" column="56" selection-start-line="106" selection-start-column="56" selection-end-line="106" selection-end-column="56" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#763#783#0" expanded="true" />
-            <element signature="e#843#916#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/EvaluationsList.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/Dashboard.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="109" column="25" selection-start-line="109" selection-start-column="25" selection-end-line="109" selection-end-column="25" />
+        <state relative-caret-position="2700">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/evaluations/resultsAndFeedback/DesktopDashboard.tsx">
+    <entry file="file://$PROJECT_DIR$/src/types/EvalTypes.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1006">
-          <caret line="249" lean-forward="true" selection-start-line="249" selection-end-line="249" />
+        <state relative-caret-position="81">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/eval/mobile/MobileEvaluationResultsGrid.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="65" column="42" lean-forward="true" selection-start-line="65" selection-start-column="42" selection-end-line="65" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hooks/useEvaluationData.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="48" column="70" lean-forward="true" selection-start-line="48" selection-start-column="70" selection-end-line="48" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

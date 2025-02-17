@@ -28,7 +28,7 @@
     <feature id="navigation.find.in.files" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.finishByExclamation" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="db.copy.table" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="ui.hide.tool.window" count="6" last-shown="0" last-used="1737546883790" shown-count="0" />
+    <feature id="ui.hide.tool.window" count="7" last-shown="0" last-used="1739540447422" shown-count="0" />
     <feature id="navigation.find.replace.in.files.toggle" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="move.element.left.right" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="jar.diff" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -43,7 +43,7 @@
     <feature id="editing.duplicate" count="5" last-shown="0" last-used="1698931101573" shown-count="0" />
     <feature id="editing.copy.reference" count="3" last-shown="0" last-used="1698927193566" shown-count="0" />
     <feature id="codeassists.highlight.throws" count="1" last-shown="0" last-used="1737541444749" shown-count="0" />
-    <feature id="navigation.find" count="7" last-shown="0" last-used="1737549064055" shown-count="0" />
+    <feature id="navigation.find" count="9" last-shown="0" last-used="1739539324559" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.basic" count="13" last-shown="0" last-used="1699804555607" shown-count="0" />
     <feature id="editing.completion.postfix" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -108,7 +108,7 @@
     <feature id="codeassists.highlight.return" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="ant.quickfix.CreateProperty" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.camelprefix" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="navigation.popup.class" count="3" last-shown="0" last-used="1737546980299" shown-count="0" />
+    <feature id="navigation.popup.class" count="7" last-shown="0" last-used="1739540547264" shown-count="0" />
     <feature id="codeassists.parameterInfo" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="db.table.editor.wrapper" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="find.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
