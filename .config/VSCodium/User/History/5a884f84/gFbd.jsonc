@@ -1,0 +1,214 @@
+/* ===========================================================
+   Catppuccin-Inspired Waybar Style (Clean, Modern, Elegant)
+   =========================================================== */
+
+/* -----------------------------------------------------------
+   CSS Variables for Consistent Theming
+   ----------------------------------------------------------- */
+   :root {
+    --font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font";
+    --font-size: 16px;
+  
+    /* Catppuccin Colors */
+    --mantle: #1e2030;
+    --overlay0: #585b70;
+    --overlay1: #6e738d;
+    --text: #cad3f5;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --green: #a6e3a1;
+    --peach: #fab387;
+    --sky: #91d7e3;
+    --blue: #8aadf4;
+    --crust: #181926;
+  }
+  
+  /* -----------------------------------------------------------
+     Global Styling
+     ----------------------------------------------------------- */
+  * {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    box-sizing: border-box;
+    animation: fadeIn 0.5s ease;
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Subtle Slide-up Fade-in Animation */
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* -----------------------------------------------------------
+     Waybar Window
+     ----------------------------------------------------------- */
+  window#waybar {
+    background-color: rgba(30, 32, 48, 0.95); /* var(--mantle) but semi-transparent */
+    border: 2px solid var(--overlay0);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    animation: fadeInUp 0.5s ease;
+  }
+  
+  /* -----------------------------------------------------------
+     Modules Container
+     ----------------------------------------------------------- */
+  .modules-left,
+  .modules-center,
+  .modules-right {
+    background-color: var(--mantle);
+    border-radius: 8px;
+    padding: 0 10px;
+    animation: fadeInUp 0.4s ease;
+  }
+  
+  .modules-left {
+    animation-delay: 0.05s;
+  }
+  .modules-center {
+    animation-delay: 0.1s;
+  }
+  .modules-right {
+    animation-delay: 0.15s;
+  }
+  
+  /* -----------------------------------------------------------
+     Workspace Buttons
+     ----------------------------------------------------------- */
+  #workspaces button {
+    background: transparent;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  #workspaces button:hover {
+    background-color: var(--overlay1);
+    color: var(--mantle);
+  }
+  
+  #workspaces button label {
+    color: var(--text);
+    font-weight: bold;
+  }
+  
+  #workspaces button.active label {
+    color: var(--mauve);
+  }
+  
+  #workspaces button.urgent label {
+    color: var(--red);
+  }
+  
+  /* -----------------------------------------------------------
+     Common Module Style
+     ----------------------------------------------------------- */
+  .module {
+    color: var(--text);
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid var(--overlay1);
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  /* Hover Effects for Modules */
+  .module:hover {
+    background-color: var(--overlay1);
+    color: var(--mantle);
+  }
+  
+  /* -----------------------------------------------------------
+     Clock
+     ----------------------------------------------------------- */
+  #clock {
+    color: var(--green);
+    font-weight: bold;
+  }
+  
+  /* -----------------------------------------------------------
+     Backlight
+     ----------------------------------------------------------- */
+  #backlight {
+    color: var(--peach);
+  }
+  
+  /* -----------------------------------------------------------
+     Pulseaudio
+     ----------------------------------------------------------- */
+  #pulseaudio {
+    color: var(--sky);
+  }
+  
+  /* -----------------------------------------------------------
+     Battery
+     ----------------------------------------------------------- */
+  #battery {
+    color: var(--green);
+  }
+  
+  /* -----------------------------------------------------------
+     Tray Icons
+     ----------------------------------------------------------- */
+  #tray > .passive {
+    opacity: 0.7;
+  }
+  
+  #tray > .needs-attention {
+    background-color: var(--red);
+    border-radius: 5px;
+  }
+  
+  /* -----------------------------------------------------------
+     Custom Buttons (TCC, Logout)
+     ----------------------------------------------------------- */
+  #custom-wlogin,
+  #custom-tcc {
+    color: var(--blue);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid var(--overlay1);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  #custom-wlogin:hover,
+  #custom-tcc:hover {
+    background-color: var(--blue);
+    color: var(--mantle);
+  }
+  
+  /* -----------------------------------------------------------
+     Tooltip Styling
+     ----------------------------------------------------------- */
+  .tooltip {
+    background-color: var(--crust);
+    color: var(--text);
+    border: 1px solid var(--overlay1);
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0.95;
+    transition: opacity 0.2s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  

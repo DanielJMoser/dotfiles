@@ -1,0 +1,15 @@
+[Default Applications]
+x-scheme-handler/jetbrains=jetbrains-toolbox.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-JBO302.desktop
+message/rfc822=userapp-Thunderbird-JBO302.desktop
+x-scheme-handler/mid=userapp-Thunderbird-JBO302.desktop
+x-scheme-handler/webcal=userapp-Thunderbird-HG2202.desktop
+text/calendar=userapp-Thunderbird-HG2202.desktop
+application/x-extension-ics=userapp-Thunderbird-HG2202.desktop
+x-scheme-handler/webcals=userapp-Thunderbird-HG2202.desktop
+
+[Added Associations]
+x-scheme-handler/mailto=userapp-Evolution-LM7F02.desktop;userapp-Thunderbird-JBO302.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-JBO302.desktop;
+x-scheme-handler/webcal=userapp-Thunderbird-HG2202.desktop;
+x-scheme-handler/webcals=userapp-Thunderbird-HG2202.desktop;

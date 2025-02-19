@@ -1,0 +1,6 @@
+2025-02-17 06:55:40.063 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2025-02-17 06:55:40.687 [info] Installing extension: catppuccin.catppuccin-vsc {"productVersion":{"version":"1.97.1","date":"2025-02-14T14:56:19.880Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/danielm/.vscode-oss/extensions/extensions.json","path":"/home/danielm/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2025-02-17 06:55:41.081 [info] Extracted extension to file:///home/danielm/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.16.1-universal: catppuccin.catppuccin-vsc
+2025-02-17 06:55:41.090 [info] Renamed to /home/danielm/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.16.1-universal
+2025-02-17 06:55:41.103 [info] Marked extension as removed catppuccin.catppuccin-vsc-3.15.2-universal
+2025-02-17 06:55:41.104 [info] Extension installed successfully: catppuccin.catppuccin-vsc vscode-userdata:/home/danielm/.vscode-oss/extensions/extensions.json
