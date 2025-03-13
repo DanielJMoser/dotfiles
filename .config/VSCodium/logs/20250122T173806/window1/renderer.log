@@ -1,9 +1,0 @@
-2025-01-22 17:38:06.564 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2025-01-22 17:38:06.565 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2025-01-22 17:38:06.565 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
-2025-01-22 17:38:06.766 [info] Started local extension host with pid 1807.
-2025-01-22 17:38:09.364 [info] [perf] Render performance baseline is 12ms
-2025-01-22 17:38:12.047 [error] Timed out waiting for authentication provider to register
-2025-01-22 17:38:15.217 [warning] Settings pattern "issueReporter.*" doesn't match any settings
-2025-01-22 17:39:02.078 [error] [network] #1: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled
-2025-01-22 17:39:07.836 [error] [network] #4: https://open-vsx.org/vscode/gallery/extensionquery - error POST Canceled

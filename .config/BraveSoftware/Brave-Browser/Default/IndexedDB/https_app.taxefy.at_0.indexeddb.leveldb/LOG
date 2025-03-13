@@ -1,6 +1,0 @@
-2025/02/19-11:53:35.481 3057 Creating DB /home/danielm/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.taxefy.at_0.indexeddb.leveldb since it was missing.
-2025/02/19-11:53:35.499 3057 Reusing MANIFEST /home/danielm/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.taxefy.at_0.indexeddb.leveldb/MANIFEST-000001
-2025/02/19-11:53:35.524 3058 Level-0 table #5: started
-2025/02/19-11:53:35.536 3058 Level-0 table #5: 563 bytes OK
-2025/02/19-11:53:35.550 3058 Delete type=0 #3
-2025/02/19-11:53:35.550 3056 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
