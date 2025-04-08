@@ -4,8 +4,6 @@
 # Allow only these directories and files to be tracked
 !Thunar/
 !autostart/
-!btop/
-!htop/
 !hypr/
 !kitty/
 !spotify-player/
