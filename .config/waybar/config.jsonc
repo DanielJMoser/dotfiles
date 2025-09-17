@@ -15,7 +15,8 @@
   ],
   "modules-center": [
     "clock",
-    "custom/weather"
+    "custom/weather",
+    "custom/rss"
   ],
   "modules-right": [
     "network",
@@ -149,6 +150,13 @@
     "interval": 3600,
     "format": "{}",
     "tooltip": false
+  },
+  "custom/rss": {
+    "format": "󰑫 RSS",
+    "on-click": "eww open --toggle rss_widget",
+    "tooltip": true,
+    "tooltip-format": "Latest News",
+    "return-type": "json"
   },
 
   "custom/vpn": {

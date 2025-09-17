@@ -14,3 +14,16 @@
 !mimeapps.list
 !pavucontrol.ini
 
+# Always ignore these patterns even in allowed directories
+*.tmp
+*.temp
+*.save
+*.swp
+*.swo
+*.backup
+*.old
+*~
+.DS_Store
+*.log
+*.cache
+

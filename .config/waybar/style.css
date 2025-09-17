@@ -27,6 +27,13 @@ window#waybar {
   margin: 0 4px;
 }
 
+.modules-center #clock,
+.modules-center #custom-weather,
+.modules-center #custom-rss {
+  min-width: 90px;
+  margin: 0 6px;
+}
+
 #workspaces button {
   background: transparent;
   color: #cad3f5;
@@ -69,7 +76,8 @@ window#waybar {
 #custom-weather,
 #custom-vpn,
 #tray,
-#custom-bluetooth {
+#custom-bluetooth,
+#custom-rss {
   background: rgba(49, 50, 68, 0.6);
   padding: 4px 10px;
   margin: 0 4px;
@@ -89,6 +97,7 @@ window#waybar {
 #temperature { color: #f38ba8; }
 #custom-weather { color: #b4befe; }
 #custom-bluetooth { color: #8aadf4; }
+#custom-rss { color: #f9e2af; }
 
 /* Battery States */
 #battery.critical:not(.charging) {
@@ -126,7 +135,8 @@ window#waybar {
 #pulseaudio:hover,
 #custom-weather:hover,
 #custom-vpn:hover,
-#custom-bluetooth:hover {
+#custom-bluetooth:hover,
+#custom-rss:hover {
   background: rgba(203, 166, 247, 0.2);
   border: 1px solid #cba6f7;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
