@@ -1,11 +1,44 @@
-width=600
-height=400
+# Wofi Configuration - Optimized & Modern
+# Matches Catppuccin Mocha theme
+
+# Window dimensions
+width=700
+height=450
+
+# Default mode (drun = desktop applications)
 mode=drun
+
+# Use custom colors from CSS
 colors=colors
+
+# Search behavior
+insensitive=true
+matching=fuzzy
 filter_rate=100
+
+# Display options
 allow_markup=true
-no_actions=true
+allow_images=true
+image_size=32
+drun-display_generic=true
+show=drun
+
+# Layout
 halign=fill
 orientation=vertical
 content_halign=fill
-drun-display_generic=true
+
+# Performance
+cache_file=/home/danielm/.cache/wofi-cache
+exec_search=false
+
+# Actions
+no_actions=true
+
+# Sorting
+sort_order=default
+gtk_dark=true
+
+# Key bindings (use defaults + custom)
+key_expand=Tab
+key_exit=Escape

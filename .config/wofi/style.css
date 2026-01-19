@@ -1,60 +1,120 @@
+/* ============================================
+   WOFI - CATPPUCCIN MOCHA THEME
+   Matches Waybar Design
+   ============================================ */
+
+* {
+  font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font", sans-serif;
+  font-size: 14px;
+}
+
+/* Main Window */
 window {
-    margin: 5px;
-    border: 0px solid #cba6f7;
-    background-color: #1e1e2e;
-    /* opacity: 1; */
-    font-family: FontAwesome;
+  margin: 0;
+  padding: 0;
+  border: 2px solid #cba6f7;
+  border-radius: 12px;
+  background-color: rgba(30, 32, 48, 0.95);
+  box-shadow: 0 4px 12px 2px rgba(0, 0, 0, 0.3);
 }
 
-@keyframes erscheinen {
-    from {opacity: 0;}
-      to {opacity: 1;}
-}
-
+/* Search Input */
 #input {
-    margin: 0px 0px 5px;
-    border: 5px solid #fab387;
-    background-color: #313244;
-    border-radius: 20px;
-    color : #cdd6f4;
+  margin: 12px 12px 8px;
+  padding: 8px 12px;
+  border: 2px solid #cba6f7;
+  border-radius: 8px;
+  background-color: #313244;
+  color: #cdd6f4;
+  outline: none;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+#input:focus {
+  border-color: #b4befe;
+  box-shadow: 0 0 0 2px rgba(180, 190, 254, 0.2);
+}
+
+/* Container Boxes */
 #inner-box {
-    margin: 0px;
-    border: 0px solid #6c7086;
-    background-color: #1e1e2e;
+  margin: 0;
+  padding: 4px;
+  border: none;
+  background-color: transparent;
 }
-
-/* #inner-box flowboxchild:nth-child(even) { */
-/*     background-color: #555555; */
-/* } */
 
 #outer-box {
-    margin: 0px;
-    border: 0px solid #6c7086;
-    background-color: #1e1e2e;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
 }
 
+/* Scrollable Area */
 #scroll {
-    margin: 0px;
-    border: 5px solid #6c7086;
-    border-radius: 0px;
-    background-color: #1e1e2e;
-    /* animation: erscheinen 0.3s linear; */
+  margin: 0 8px 8px;
+  padding: 0;
+  border: none;
+  border-radius: 8px;
+  background-color: transparent;
 }
 
+/* Entry Items */
+#entry {
+  margin: 2px 4px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #cdd6f4;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#entry:hover {
+  background-color: rgba(203, 166, 247, 0.15);
+  border: 1px solid rgba(203, 166, 247, 0.3);
+}
+
+#entry:selected {
+  background-color: #cba6f7;
+  color: #1e2030;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Entry Text */
 #text {
-    margin: 1px;
-    border: 0px solid #a6e3a1;
-    /* background-color: #444444; */
-    color: #cdd6f4;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: inherit;
 }
 
-#selected {
-    background-color: rgba(203, 166, 247, 0.9 ); /* #cba6f7 */
-    font-weight: bolder;
+#text:selected {
+  color: #1e2030;
 }
 
-#text:selected{
-    color: #1e1e2e;
+/* Entry Images/Icons */
+#img {
+  margin-right: 8px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+/* Animations */
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+window {
+  animation: slide-in 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }

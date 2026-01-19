@@ -1,4 +1,9 @@
+/* ============================================
+   WAYBAR - CATPPUCCIN MOCHA THEME
+   Simplified & Perfected CSS
+   ============================================ */
 
+/* Global Defaults */
 * {
   font-family: "JetBrainsMono Nerd Font", "Symbols Nerd Font", sans-serif;
   font-size: 14px;
@@ -10,6 +15,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Main Waybar Window */
 window#waybar {
   background: rgba(30, 32, 48, 0.85);
   border-radius: 12px;
@@ -18,6 +24,7 @@ window#waybar {
   box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
+/* Module Containers */
 .modules-left,
 .modules-center,
 .modules-right {
@@ -27,22 +34,19 @@ window#waybar {
   margin: 0 4px;
 }
 
-.modules-center #clock,
-.modules-center #custom-weather,
-.modules-center #custom-rss {
-  min-width: 90px;
-  margin: 0 6px;
-}
+/* ============================================
+   WORKSPACES
+   ============================================ */
 
 #workspaces button {
   background: transparent;
   color: #cad3f5;
-  padding: 0 6px;
+  padding: 0;
   margin: 0 2px;
   border-radius: 6px;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  min-width: 24px;
-  min-height: 24px;
+  min-width: 28px;
+  min-height: 28px;
 }
 
 #workspaces button.active {
@@ -62,31 +66,76 @@ window#waybar {
   animation: urgent-blink 1s ease-in-out infinite;
 }
 
+/* ============================================
+   BUTTON-LIKE MODULES (Square, Icon-only)
+   ============================================ */
+
+#custom-powermenu,
+#custom-tcc,
+#custom-clipboard,
+#custom-notification,
+#idle_inhibitor {
+  background: rgba(49, 50, 68, 0.6);
+  padding: 0;
+  margin: 0 4px;
+  border-radius: 8px;
+  border: 1px solid rgba(110, 115, 141, 0.3);
+  min-width: 28px;
+  min-height: 28px;
+  font-weight: bold;
+}
+
+/* ============================================
+   TEXT & DATA MODULES
+   ============================================ */
+
 #clock,
 #battery,
 #cpu,
 #memory,
-#disk,
 #temperature,
+#custom-temperature,
 #backlight,
 #network,
 #pulseaudio,
-#custom-wlogin,
-#custom-tcc,
 #custom-weather,
 #custom-vpn,
-#tray,
-#custom-bluetooth,
-#custom-rss {
+#custom-rss,
+#mpris,
+#window,
+#custom-updates,
+#tray {
   background: rgba(49, 50, 68, 0.6);
   padding: 4px 10px;
   margin: 0 4px;
   border-radius: 8px;
   border: 1px solid rgba(110, 115, 141, 0.3);
-  min-height: 24px;
+  min-height: 28px;
 }
 
-/* Module Colors */
+/* Center modules get min-width for consistency */
+.modules-center #clock,
+.modules-center #custom-weather,
+.modules-center #custom-rss,
+.modules-center #mpris {
+  min-width: 90px;
+  margin: 0 6px;
+}
+
+/* Window title needs more horizontal space */
+#window {
+  padding: 4px 16px;
+}
+
+/* Tray needs less padding */
+#tray {
+  padding: 4px 8px;
+}
+
+/* ============================================
+   MODULE COLORS
+   ============================================ */
+
 #clock { color: #a6e3a1; }
 #battery { color: #f9e2af; }
 #cpu { color: #89b4fa; }
@@ -94,10 +143,59 @@ window#waybar {
 #backlight { color: #fab387; }
 #network { color: #94e2d5; }
 #pulseaudio { color: #89dceb; }
-#temperature { color: #f38ba8; }
+#temperature, #custom-temperature { color: #f38ba8; }
 #custom-weather { color: #b4befe; }
-#custom-bluetooth { color: #8aadf4; }
 #custom-rss { color: #f9e2af; }
+#mpris { color: #b4befe; }
+#window { color: #cad3f5; font-style: italic; }
+#custom-updates { color: #f9e2af; }
+#custom-vpn { color: #94e2d5; }
+
+/* Button-like modules */
+#custom-powermenu, #custom-tcc { color: #8aadf4; }
+#idle_inhibitor { color: #cad3f5; }
+#custom-clipboard { color: #89dceb; }
+#custom-notification { color: #cad3f5; }
+
+/* ============================================
+   HOVER EFFECTS
+   ============================================ */
+
+#workspaces button:hover,
+#custom-powermenu:hover,
+#custom-tcc:hover,
+#custom-clipboard:hover,
+#custom-notification:hover,
+#idle_inhibitor:hover,
+#clock:hover,
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#temperature:hover,
+#custom-temperature:hover,
+#backlight:hover,
+#network:hover,
+#pulseaudio:hover,
+#custom-weather:hover,
+#custom-vpn:hover,
+#custom-rss:hover,
+#mpris:hover,
+#custom-updates:hover {
+  background: rgba(203, 166, 247, 0.2);
+  border: 1px solid #cba6f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Special button hover effects */
+#custom-powermenu:hover,
+#custom-tcc:hover {
+  background: #8aadf4;
+  color: #1e2030;
+}
+
+/* ============================================
+   STATE-BASED STYLING
+   ============================================ */
 
 /* Battery States */
 #battery.critical:not(.charging) {
@@ -110,52 +208,53 @@ window#waybar {
   color: #a6e3a1;
 }
 
-/* Custom Button Styling */
-#custom-wlogin,
-#custom-tcc {
-  color: #8aadf4;
-  font-weight: bold;
+/* Network & Audio States */
+#network.disconnected,
+#pulseaudio.muted {
+  color: #6e738d;
+  opacity: 0.75;
 }
 
-#custom-wlogin:hover,
-#custom-tcc:hover {
-  background: #8aadf4;
-  color: #1e2030;
+/* VPN States */
+#custom-vpn.connected {
+  color: #a6e3a1;
 }
 
-/* Hover Effects */
-#clock:hover,
-#battery:hover,
-#cpu:hover,
-#memory:hover,
-#disk:hover,
-#temperature:hover,
-#backlight:hover,
-#network:hover,
-#pulseaudio:hover,
-#custom-weather:hover,
-#custom-vpn:hover,
-#custom-bluetooth:hover,
-#custom-rss:hover {
-  background: rgba(203, 166, 247, 0.2);
-  border: 1px solid #cba6f7;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+#custom-vpn.disconnected {
+  color: #6e738d;
+  opacity: 0.65;
 }
 
-/* Tooltip Styling */
-tooltip {
-  background: rgba(30, 32, 48, 0.95);
-  border: 1px solid #6e738d;
-  border-radius: 8px;
-  padding: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-  animation: tooltip-slide 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+/* Idle Inhibitor States */
+#idle_inhibitor.activated {
+  color: #fab387;
+  background: rgba(250, 179, 135, 0.15);
+  border: 1px solid #fab387;
 }
 
-/* Tray Styling */
-#tray {
-  padding: 4px 8px;
+/* MPRIS States */
+#mpris.paused {
+  color: #6e738d;
+  opacity: 0.75;
 }
+
+#mpris.playing {
+  color: #b4befe;
+}
+
+/* Updates States */
+#custom-updates.has-updates {
+  color: #f9e2af;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+#custom-updates.updated {
+  color: #a6e3a1;
+}
+
+/* ============================================
+   TRAY
+   ============================================ */
 
 #tray > .passive {
   opacity: 0.75;
@@ -166,14 +265,23 @@ tooltip {
   border-radius: 6px;
 }
 
-/* System Indicators */
-#network.disconnected,
-#pulseaudio.muted {
-  color: #6e738d;
-  opacity: 0.75;
+/* ============================================
+   TOOLTIPS
+   ============================================ */
+
+tooltip {
+  background: rgba(30, 32, 48, 0.95);
+  border: 1px solid #6e738d;
+  border-radius: 8px;
+  padding: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  animation: tooltip-slide 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Animations */
+/* ============================================
+   ANIMATIONS
+   ============================================ */
+
 @keyframes urgent-blink {
   0% { opacity: 1; }
   50% { opacity: 0.5; }
@@ -187,6 +295,12 @@ tooltip {
 }
 
 @keyframes tooltip-slide {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
 }

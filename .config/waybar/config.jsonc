@@ -7,22 +7,26 @@
   "spacing": 4,
 
   "modules-left": [
-    "custom/wlogin",
+    "custom/powermenu",
     "hyprland/workspaces",
+    "hyprland/window",
     "cpu",
     "memory",
-    "temperature"
+    "custom/temperature"
   ],
   "modules-center": [
     "clock",
     "custom/weather",
-    "custom/rss"
+    "custom/rss",
+    "mpris"
   ],
   "modules-right": [
+    "custom/updates",
+    "custom/clipboard",
+    "custom/notification",
+    "idle_inhibitor",
     "network",
-    "backlight",
     "pulseaudio",
-    "battery",
     "custom/vpn",
     "custom/tcc",
     "tray"
@@ -87,12 +91,12 @@
     "on-click": "kitty -e btop"
   },
 
-  "temperature": {
-    "thermal-zone": 2,
-    "critical-threshold": 80,
-    "format": "{icon} {temperatureC}°C",
-    "format-icons": ["", "", "", "", ""],
-    "tooltip": true
+  "custom/temperature": {
+    "exec": "~/.config/waybar/scripts/get-cpu-temp.sh",
+    "interval": 2,
+    "format": "{}",
+    "tooltip": true,
+    "tooltip-format": "CPU Temperature"
   },
 
   "backlight": {
@@ -146,22 +150,21 @@
   },
 
   "custom/weather": {
-    "exec": "curl 'https://wttr.in/?format=1'",
+    "exec": "curl -sf 'https://wttr.in/?format=1' || echo '󰼱 Weather unavailable'",
     "interval": 3600,
     "format": "{}",
-    "tooltip": false
+    "tooltip": true,
+    "exec-tooltip": "curl -sf 'https://wttr.in/?format=4' || echo 'Weather data unavailable'"
   },
   "custom/rss": {
     "format": "󰑫 RSS",
     "on-click": "eww open --toggle rss_widget",
     "tooltip": true,
-    "tooltip-format": "Latest News",
-    "return-type": "json"
+    "tooltip-format": "Latest News"
   },
 
   "custom/vpn": {
-    "exec": "echo '{\"text\": \"󰖂\", \"tooltip\": \"VPN Connected\"}'",
-    "exec-if": "test -d /proc/sys/net/ipv4/conf/tun0",
+    "exec": "~/.config/waybar/scripts/vpn-status.sh",
     "return-type": "json",
     "interval": 5
   },
@@ -177,19 +180,87 @@
     "tooltip": true
   },
 
-  "custom/wlogin": {
-    "format": "󰣇",
-    "on-click": "wlogout",
-    "tooltip": true
+  "custom/powermenu": {
+    "format": "⏻",
+    "on-click": "eww open powermenu_overlay && eww open powermenu_sidebar && eww open powermenu_center",
+    "tooltip": true,
+    "tooltip-format": "Power Menu"
   },
 
-  "custom/bluetooth": {
-  "format": " {status}",
-  "format-disabled": "",
-  "format-connected": " {num_connections}",
-  "tooltip-format": "{device_alias}",
-  "tooltip-format-connected": " {device_enumerate}",
-  "tooltip-format-enumerate-connected": "{device_alias}",
-  "on-click": "blueman-manager"
-}
+  "mpris": {
+    "format": "{player_icon} {dynamic}",
+    "format-paused": "{status_icon} <i>{dynamic}</i>",
+    "player-icons": {
+      "default": "▶",
+      "spotify": "",
+      "firefox": "󰈹"
+    },
+    "status-icons": {
+      "paused": "⏸"
+    },
+    "max-length": 40,
+    "tooltip-format": "{player}: {artist} - {title}"
+  },
+
+  "idle_inhibitor": {
+    "format": "{icon}",
+    "format-icons": {
+      "activated": "",
+      "deactivated": ""
+    },
+    "timeout": 30.5,
+    "tooltip-format-activated": "Caffeine mode ON (screen won't lock)",
+    "tooltip-format-deactivated": "Caffeine mode OFF"
+  },
+
+  "hyprland/window": {
+    "format": "{title}",
+    "max-length": 50,
+    "separate-outputs": true,
+    "icon": true,
+    "icon-size": 16,
+    "rewrite": {
+      "(.*) — Mozilla Firefox": "🌐 $1",
+      "(.*) - Visual Studio Code": " $1",
+      "(.*) - VSCodium": " $1",
+      "(.*)Spotify": " $1"
+    }
+  },
+
+  "custom/clipboard": {
+    "format": "󰅇",
+    "on-click": "cliphist list | wofi -S dmenu | cliphist decode | wl-copy",
+    "on-click-right": "cliphist wipe",
+    "tooltip": true,
+    "tooltip-format": "Clipboard History"
+  },
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "<span foreground='#f38ba8'><sup></sup></span>",
+      "none": "",
+      "dnd-notification": "<span foreground='#f38ba8'><sup></sup></span>",
+      "dnd-none": ""
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "custom/updates": {
+    "format": "{} {icon}",
+    "return-type": "json",
+    "format-icons": {
+      "has-updates": "󱍷",
+      "updated": ""
+    },
+    "exec": "~/.config/waybar/scripts/check-updates.sh",
+    "interval": 3600,
+    "on-click": "kitty -e yay -Syu"
+  }
 }
