@@ -12,7 +12,7 @@
   "modules-left": ["group/brand", "mpris"],
   // The centre holds only the clock, so it stays exactly centred.
   "modules-center": ["clock"],
-  "modules-right": [],
+  "modules-right": ["group/status"],
 
   // ---------- brand island: Arch logo + this screen's workspace dots ----------
 
@@ -22,7 +22,7 @@
   },
 
   "custom/logo": {
-    "format": "\uf303",
+    "format": "",
     "tooltip": false,
     // Scrolling anywhere on the island steps through workspaces, like on the dots.
     "on-scroll-up": "hyprctl dispatch workspace m+1",
@@ -48,9 +48,9 @@
     "max-length": 40,
     "tooltip-format": "{player}: {artist} – {title}",
     "player-icons": {
-      "default": "\uf04b",
-      "spotify": "\uf1bc",
-      "spotify_player": "\uf1bc"
+      "default": "",
+      "spotify": "",
+      "spotify_player": ""
     },
     "ignored-players": ["firefox", "brave", "chromium"]
   },
@@ -76,5 +76,55 @@
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     }
+  },
+
+  // ---------- status island: network, volume, battery ----------
+
+  "group/status": {
+    "orientation": "horizontal",
+    "modules": ["network", "pulseaudio", "battery"]
+  },
+
+  "network": {
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰈀",
+    "format-linked": "󰈀",
+    "format-disconnected": "󰤮",
+    "format-disabled": "󰤮",
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "tooltip-format-wifi": "{essid} · {signalStrength}%\n{ipaddr}/{cidr}",
+    "tooltip-format-ethernet": "{ifname}\n{ipaddr}/{cidr}",
+    "tooltip-format-disconnected": "Disconnected",
+    "on-click": "nm-connection-editor"
+  },
+
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-muted": "󰝟",
+    "format-icons": {
+      "default": ["󰕿", "󰖀", "󰕾"]
+    },
+    "tooltip-format": "{volume}%",
+    "on-scroll-up": "pamixer --increase 5",
+    "on-scroll-down": "pamixer --decrease 5",
+    "on-click": "pavucontrol",
+    "on-click-right": "pamixer --toggle-mute"
+  },
+
+  "battery": {
+    "bat": "BAT0",
+    "states": {
+      "warning": 30,
+      "critical": 15
+    },
+    "format": "{icon} {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
+    "format-plugged": "󰚥 {capacity}%",
+    "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+    "format-time": "{H} h {M} min",
+    "tooltip-format": "{time} remaining",
+    "tooltip-format-charging": "{time} until full",
+    "tooltip-format-full": "Fully charged",
+    "tooltip-format-plugged": "Plugged in, not charging"
   }
 }

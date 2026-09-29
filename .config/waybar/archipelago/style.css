@@ -22,7 +22,8 @@ window#waybar {
 
 #brand,
 #mpris,
-#clock {
+#clock,
+#status {
   background: alpha(@base, 0.78);
   border: 1px solid @surface0;
   border-radius: 15px;
@@ -91,6 +92,41 @@ window#waybar {
 #mpris.paused {
   color: @overlay1;
   font-style: italic;
+}
+
+/* ---------- status island ---------- */
+
+#pulseaudio,
+#battery {
+  margin-left: 10px;
+}
+
+#network.disconnected,
+#network.disabled {
+  color: @red;
+}
+
+#pulseaudio.muted {
+  color: @overlay0;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @peach;
+}
+
+#battery.critical:not(.charging) {
+  color: @red;
+  animation: battery-pulse 1s ease-in-out infinite alternate;
+}
+
+@keyframes battery-pulse {
+  to {
+    color: alpha(@red, 0.3);
+  }
 }
 
 /* ---------- popups ---------- */
