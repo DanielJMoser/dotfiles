@@ -24,6 +24,16 @@
   "custom/logo": {
     "format": "",
     "tooltip": false,
+    // Click opens the power dropdown; every action takes a second click in it.
+    "menu": "on-click",
+    "menu-file": "~/.config/waybar/archipelago/power-menu.xml",
+    "menu-actions": {
+      "lock": "hyprlock",
+      "suspend": "systemctl suspend",
+      "logout": "hyprctl dispatch exit",
+      "reboot": "systemctl reboot",
+      "shutdown": "systemctl poweroff"
+    },
     // Scrolling anywhere on the island steps through workspaces, like on the dots.
     "on-scroll-up": "hyprctl dispatch workspace m+1",
     "on-scroll-down": "hyprctl dispatch workspace m-1"

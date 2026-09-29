@@ -164,3 +164,25 @@ tooltip {
 tooltip label {
   color: @text;
 }
+
+/* The power dropdown (and tray menus) */
+menu {
+  background: @mantle;
+  border: 1px solid @surface1;
+  border-radius: 8px;
+  padding: 4px;
+  color: @text;
+}
+
+menuitem {
+  border-radius: 5px;
+  padding: 4px 10px;
+}
+
+menuitem label {
+  color: @text;
+}
+
+menuitem:hover {
+  background: @surface0;
+}
