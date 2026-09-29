@@ -23,6 +23,7 @@ window#waybar {
 #brand,
 #mpris,
 #clock,
+#utility,
 #status {
   background: alpha(@base, 0.78);
   border: 1px solid @surface0;
@@ -92,6 +93,22 @@ window#waybar {
 #mpris.paused {
   color: @overlay1;
   font-style: italic;
+}
+
+/* ---------- utility island ---------- */
+
+/* The tray's own margin, so an empty (hidden) tray leaves no gap */
+#tray {
+  margin-right: 10px;
+}
+
+#custom-tcc {
+  margin-left: 10px;
+}
+
+/* The gap to the status island */
+#utility {
+  margin-right: 6px;
 }
 
 /* ---------- status island ---------- */

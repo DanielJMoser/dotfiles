@@ -12,7 +12,7 @@
   "modules-left": ["group/brand", "mpris"],
   // The centre holds only the clock, so it stays exactly centred.
   "modules-center": ["clock"],
-  "modules-right": ["group/status"],
+  "modules-right": ["group/utility", "group/status"],
 
   // ---------- brand island: Arch logo + this screen's workspace dots ----------
 
@@ -76,6 +76,31 @@
       "on-scroll-up": "shift_up",
       "on-scroll-down": "shift_down"
     }
+  },
+
+  // ---------- utility island: tray + two launchers ----------
+
+  "group/utility": {
+    "orientation": "horizontal",
+    "modules": ["tray", "custom/clipboard", "custom/tcc"]
+  },
+
+  "tray": {
+    "icon-size": 16,
+    "spacing": 10
+  },
+
+  "custom/clipboard": {
+    "format": "󰅇",
+    "tooltip-format": "Clipboard history (right-click wipes it)",
+    "on-click": "cliphist list | wofi --dmenu | cliphist decode | wl-copy",
+    "on-click-right": "cliphist wipe"
+  },
+
+  "custom/tcc": {
+    "format": "󰈐",
+    "tooltip-format": "TUXEDO Control Center",
+    "on-click": "tuxedo-control-center"
   },
 
   // ---------- status island: network, volume, battery ----------
