@@ -1,0 +1,37 @@
+// Archipelago: floating-island Waybar profile.
+// Started by ~/.config/hypr/scripts/waybar-profile.sh (SUPER+SHIFT+B toggles).
+{
+  "layer": "top",
+  "position": "top",
+  "height": 30,
+  "margin-top": 8,
+  "margin-left": 8,
+  "margin-right": 8,
+  "spacing": 0,
+
+  "modules-left": [],
+  // The centre holds only the clock, so it stays exactly centred.
+  "modules-center": ["clock"],
+  "modules-right": [],
+
+  "clock": {
+    "format": "{:%H:%M · %a %d %b}",
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "calendar": {
+      "mode": "month",
+      "on-scroll": 1,
+      // Pango markup can't use the GTK palette names, so these are Mocha hex values:
+      // mauve, text, blue, green.
+      "format": {
+        "months": "<span color='#cba6f7'><b>{}</b></span>",
+        "days": "<span color='#cdd6f4'>{}</span>",
+        "weekdays": "<span color='#89b4fa'><b>{}</b></span>",
+        "today": "<span color='#a6e3a1'><b><u>{}</u></b></span>"
+      }
+    },
+    "actions": {
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
+  }
+}
