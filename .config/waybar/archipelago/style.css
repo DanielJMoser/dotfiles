@@ -125,8 +125,10 @@ window#waybar {
   color: @red;
 }
 
+/* linked = cable in but no address, which is just as offline */
 #network.disconnected,
-#network.disabled {
+#network.disabled,
+#network.linked {
   color: @red;
 }
 

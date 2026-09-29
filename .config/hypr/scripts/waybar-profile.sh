@@ -31,28 +31,34 @@ case "${1:-toggle}" in
         exit 2 ;;
 esac
 
+# Both profiles are a directory holding config.jsonc and style.css.
 case "$profile" in
-    archipelago) config="$waybar_dir/archipelago/config.jsonc" style="$waybar_dir/archipelago/style.css" ;;
-    classic) config="$waybar_dir/config.jsonc" style="$waybar_dir/style.css" ;;
+    archipelago) profile_dir="$waybar_dir/archipelago" ;;
+    classic) profile_dir="$waybar_dir" ;;
 esac
 
 mkdir -p "$state_dir"
 
 # One switch at a time, so a double key press can't start two bars.
 exec 9>"$state_dir/lock"
-flock -w 10 9 || exit 1
+flock -w 10 9 || { echo "${0##*/}: another switch is still running" >&2; exit 1; }
 
+# Stop every running Waybar: politely, then SIGKILL after 5 s, giving up after 10 s.
 pkill -x -U "$uid" waybar
 tries=0
 while pgrep -x -U "$uid" waybar >/dev/null; do
     tries=$((tries + 1))
-    [ "$tries" -eq 50 ] && pkill -KILL -x -U "$uid" waybar
+    case "$tries" in
+        50) pkill -KILL -x -U "$uid" waybar ;;
+        100) echo "${0##*/}: Waybar won't stop" >&2; exit 1 ;;
+    esac
     sleep 0.1
 done
 
 printf '%s\n' "$profile" >"$state_file"
 
-waybar -l warning -c "$config" -s "$style" >"$state_dir/waybar.log" 2>&1 9>&- &
+waybar -l warning -c "$profile_dir/config.jsonc" -s "$profile_dir/style.css" \
+    >"$state_dir/waybar.log" 2>&1 9>&- &
 
 # Keep the lock until the child has become "waybar", so a queued switch can see and stop it.
 while [ "$(cat "/proc/$!/comm" 2>/dev/null)" != waybar ] && kill -0 "$!" 2>/dev/null; do

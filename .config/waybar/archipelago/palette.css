@@ -1,5 +1,5 @@
 /* Catppuccin Mocha, defined once as named GTK colors.
-   Names match ~/.config/hypr/mocha.conf so the bar and Hyprland share one palette. */
+   Names and values match ~/.config/hypr/mocha.conf; keep the two in step. */
 
 @define-color rosewater #f5e0dc;
 @define-color flamingo  #f2cdcd;
