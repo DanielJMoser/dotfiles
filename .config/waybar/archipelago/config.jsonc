@@ -9,10 +9,36 @@
   "margin-right": 8,
   "spacing": 0,
 
-  "modules-left": [],
+  "modules-left": ["group/brand"],
   // The centre holds only the clock, so it stays exactly centred.
   "modules-center": ["clock"],
   "modules-right": [],
+
+  // ---------- brand island: Arch logo + this screen's workspace dots ----------
+
+  "group/brand": {
+    "orientation": "horizontal",
+    "modules": ["custom/logo", "hyprland/workspaces"]
+  },
+
+  "custom/logo": {
+    "format": "\uf303",
+    "tooltip": false,
+    // Scrolling anywhere on the island steps through workspaces, like on the dots.
+    "on-scroll-up": "hyprctl dispatch workspace m+1",
+    "on-scroll-down": "hyprctl dispatch workspace m-1"
+  },
+
+  // Dots are drawn by style.css; the buttons carry no text.
+  "hyprland/workspaces": {
+    "all-outputs": false,
+    "format": "",
+    // m±1 stays on this screen, matching the per-screen dots.
+    "on-scroll-up": "hyprctl dispatch workspace m+1",
+    "on-scroll-down": "hyprctl dispatch workspace m-1"
+  },
+
+  // ---------- clock island ----------
 
   "clock": {
     "format": "{:%H:%M · %a %d %b}",

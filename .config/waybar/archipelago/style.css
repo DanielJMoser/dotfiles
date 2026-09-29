@@ -3,8 +3,10 @@
 
 @import url("palette.css");
 
+/* The Propo variant of JetBrainsMono Nerd Font: same text glyphs, but icons
+   get their real width instead of overflowing into the next item. */
 * {
-  font-family: "JetBrainsMono Nerd Font";
+  font-family: "JetBrainsMono Nerd Font Propo";
   font-size: 13px;
   min-height: 0;
   border: none;
@@ -18,6 +20,7 @@ window#waybar {
 
 /* ---------- islands ---------- */
 
+#brand,
 #clock {
   background: alpha(@base, 0.78);
   border: 1px solid @surface0;
@@ -27,6 +30,53 @@ window#waybar {
      The shadow is drawn inside the pill instead. */
   box-shadow: inset 0 -2px 3px alpha(@crust, 0.5);
   padding: 0 12px;
+}
+
+/* ---------- brand island ---------- */
+
+#custom-logo {
+  color: @blue;
+  margin-right: 10px;
+}
+
+#workspaces {
+  padding: 0;
+}
+
+/* Each workspace is a dot, the active one a pill; the island's inside is
+   28px tall, so 10px above and below leaves an 8px dot. */
+#workspaces button {
+  min-width: 8px;
+  min-height: 8px;
+  margin: 10px 0;
+  padding: 0;
+  border-radius: 4px;
+  background: @subtext0;
+  box-shadow: none;
+  text-shadow: none;
+  transition: min-width 0.3s ease-in-out, background 0.3s ease-in-out;
+}
+
+#workspaces button + button {
+  margin-left: 6px;
+}
+
+#workspaces button label {
+  font-size: 0;
+}
+
+#workspaces button.empty {
+  background: @surface2;
+}
+
+#workspaces button.urgent {
+  background: @red;
+}
+
+/* Same mauve-to-lavender gradient as Hyprland's active window border */
+#workspaces button.active {
+  min-width: 26px;
+  background: linear-gradient(to right, @mauve, @lavender);
 }
 
 /* ---------- popups ---------- */
