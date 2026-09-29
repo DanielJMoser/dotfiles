@@ -9,7 +9,7 @@
   "margin-right": 8,
   "spacing": 0,
 
-  "modules-left": ["group/brand"],
+  "modules-left": ["group/brand", "mpris"],
   // The centre holds only the clock, so it stays exactly centred.
   "modules-center": ["clock"],
   "modules-right": [],
@@ -36,6 +36,23 @@
     // m±1 stays on this screen, matching the per-screen dots.
     "on-scroll-up": "hyprctl dispatch workspace m+1",
     "on-scroll-down": "hyprctl dispatch workspace m-1"
+  },
+
+  // ---------- media island: hidden while no player runs ----------
+
+  // Click and right-click keep the module's defaults: play/pause and next track.
+  "mpris": {
+    "format": "{player_icon} {dynamic}",
+    "dynamic-order": ["artist", "title"],
+    "dynamic-separator": " – ",
+    "max-length": 40,
+    "tooltip-format": "{player}: {artist} – {title}",
+    "player-icons": {
+      "default": "\uf04b",
+      "spotify": "\uf1bc",
+      "spotify_player": "\uf1bc"
+    },
+    "ignored-players": ["firefox", "brave", "chromium"]
   },
 
   // ---------- clock island ----------

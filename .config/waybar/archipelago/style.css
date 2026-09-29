@@ -21,6 +21,7 @@ window#waybar {
 /* ---------- islands ---------- */
 
 #brand,
+#mpris,
 #clock {
   background: alpha(@base, 0.78);
   border: 1px solid @surface0;
@@ -77,6 +78,19 @@ window#waybar {
 #workspaces button.active {
   min-width: 26px;
   background: linear-gradient(to right, @mauve, @lavender);
+}
+
+/* ---------- media island ---------- */
+
+/* The gap to the brand island is the media island's own margin, so it
+   leaves with the island when no player runs. */
+#mpris {
+  margin-left: 6px;
+}
+
+#mpris.paused {
+  color: @overlay1;
+  font-style: italic;
 }
 
 /* ---------- popups ---------- */
