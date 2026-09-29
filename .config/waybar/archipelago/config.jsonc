@@ -103,11 +103,43 @@
     "on-click": "tuxedo-control-center"
   },
 
-  // ---------- status island: network, volume, battery ----------
+  // ---------- status island: drawer, network, volume, battery ----------
 
   "group/status": {
     "orientation": "horizontal",
-    "modules": ["network", "pulseaudio", "battery"]
+    "modules": ["group/system", "network", "pulseaudio", "battery"]
+  },
+
+  // Hover the temperature to slide out CPU and memory.
+  "group/system": {
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "drawer-child"
+    },
+    "modules": ["temperature", "cpu", "memory"]
+  },
+
+  // k10temp's Tctl, found through the driver's own sysfs directory, so it
+  // doesn't depend on the hwmonN number, which changes between boots.
+  "temperature": {
+    "hwmon-path-abs": "/sys/bus/pci/drivers/k10temp/0000:00:18.3/hwmon",
+    "input-filename": "temp1_input",
+    "critical-threshold": 85,
+    "interval": 5,
+    "format": "󰔏",
+    "format-critical": "󰔏 {temperatureC}°C",
+    "tooltip-format": "CPU {temperatureC}°C"
+  },
+
+  "cpu": {
+    "format": "󰻠 {usage}%",
+    "interval": 5
+  },
+
+  "memory": {
+    "format": "󰍛 {percentage}%",
+    "interval": 5
   },
 
   "network": {

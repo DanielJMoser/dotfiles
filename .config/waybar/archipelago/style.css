@@ -113,9 +113,16 @@ window#waybar {
 
 /* ---------- status island ---------- */
 
+#cpu,
+#memory,
+#network,
 #pulseaudio,
 #battery {
   margin-left: 10px;
+}
+
+#temperature.critical {
+  color: @red;
 }
 
 #network.disconnected,
